@@ -1,0 +1,983 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-08 15:39:51 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 107ms (Views: 16.4ms)
+
+
+Started GET "/signature/new" for 127.0.0.1 at 2014-04-08 15:40:08 -0700
+
+ActionController::RoutingError (No route matches [GET] "/signature/new"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.8ms)
+
+
+Started GET "/signature/new" for 127.0.0.1 at 2014-04-08 15:41:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/signature/new"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.5ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:41:59 -0700
+
+ActionController::RoutingError (uninitialized constant SignaturesController):
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.3) lib/active_support/inflector/methods.rb:224:in `constantize'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.3) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.3) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:373:in `_run__1486466509717910344__call__callbacks'
+  activesupport (4.0.3) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.2ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:42:58 -0700
+Processing by SignaturesController#new as HTML
+Completed 500 Internal Server Error in 20ms
+
+NameError (undefined local variable or method `signature' for #<SignaturesController:0x007ffbd5ecee00>):
+  app/controllers/signatures_controller.rb:21:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.8ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:43:46 -0700
+Processing by SignaturesController#new as HTML
+Completed 500 Internal Server Error in 42ms
+
+ActionView::MissingTemplate (Missing template signatures/new, application/new with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee, :slim]}. Searched in:
+  * "/Users/me/projects/sigauth/app/views"
+  * "/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/devise-3.2.4/app/views"
+):
+  app/controllers/signatures_controller.rb:22:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:44:24 -0700
+Processing by SignaturesController#new as HTML
+ERROR: compiling _app_views_signatures_new_html_slim___857135662803682192_70359828880300 RAISED /Users/me/projects/sigauth/app/views/signatures/new.html.slim:16: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...odeattributes1 = ("398" )height="255"; case (_slim_codeattri...
+...                               ^
+Function body:           def _app_views_signatures_new_html_slim___857135662803682192_70359828880300(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "signatures/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActiveSupport::SafeBuffer.new; _slim_controls1 = simple_form_for(@signature) do |f|; 
+; @output_buffer.safe_concat(("<div class=\"form-actions\"><p class=\"typeItDesc\">Review your signature</p><p class=\"drawItDesc\">Draw your signature</p><ul class=\"sigNav\"><li class=\"typeIt\"><a class=\"current\" href=\"#type-it\"> Type It</a></li><li class=\"drawIt\"><a href=\"#draw-it\"> Draw It</a></li><li class=\"clearButton\"><a href=\"#clear\"> Clear</a></li><div class=\"sig sigPad sigWrapper\"><div class=\"typed\"></div><canvas class=\"sigPad\"")); 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; 
+; _slim_codeattributes1 = ("398" )height="255"; case (_slim_codeattributes1); when true; @output_buffer.safe_concat((" width=\"\"")); when false, nil; else; @output_buffer.safe_concat((" width=\"")); @output_buffer.safe_concat(((::Temple::Utils.escape_html_safe((_slim_codeattributes1))).to_s)); @output_buffer.safe_concat(("\"")); end; @output_buffer.safe_concat(("></canvas><input class=\"output\" name=\"output\" type=\"hidden\" /></div></ul></div>")); 
+; 
+; end; @output_buffer.safe_concat(((::Temple::Utils.escape_html_safe((_slim_controls1))).to_s)); @output_buffer
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:299:in `module_eval'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:299:in `compile'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:248:in `block in compile!'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:236:in `synchronize'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:236:in `compile!'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:142:in `block in render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:161:in `instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/template.rb:141:in `render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/mime_responds.rb:191:in `respond_to'
+/Users/me/projects/sigauth/app/controllers/signatures_controller.rb:22:in `new'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:403:in `_run__4160027757335812750__process_action__callbacks'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/notifications.rb:159:in `instrument'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/base.rb:136:in `process'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_controller/metal.rb:231:in `block in action'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:373:in `_run__1486466509717910344__call__callbacks'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/rack/logger.rb:20:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/quiet_assets-1.0.2/lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/activesupport-4.0.3/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/engine.rb:511:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/application.rb:97:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/puma-2.8.1/lib/puma/server.rb:490:in `handle_request'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/puma-2.8.1/lib/puma/server.rb:361:in `process_client'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/puma-2.8.1/lib/puma/server.rb:254:in `block in run'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/puma-2.8.1/lib/puma/thread_pool.rb:92:in `call'
+/Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/puma-2.8.1/lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+  Rendered signatures/new.html.slim within layouts/application (108.4ms)
+Completed 500 Internal Server Error in 113ms
+
+ActionView::Template::Error (/Users/me/projects/sigauth/app/views/signatures/new.html.slim:16: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...odeattributes1 = ("398" )height="255"; case (_slim_codeattri...
+...                               ^):
+    13:       div.sig.sigPad.sigWrapper
+    14:         div.typed
+    15: 
+    16:         canvas.sigPad width=("398" )height="255"
+    17:         input.output name="output" type="hidden"
+  app/controllers/signatures_controller.rb:22:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.7ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:45:45 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (60.5ms)
+Completed 200 OK in 797ms (Views: 796.1ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:46:51 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (12.9ms)
+Completed 200 OK in 25ms (Views: 21.5ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:48:29 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (158.3ms)
+Completed 200 OK in 388ms (Views: 331.7ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:52:12 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (155.0ms)
+Completed 200 OK in 391ms (Views: 335.2ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:58:20 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (13.2ms)
+Completed 200 OK in 24ms (Views: 22.4ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 15:58:26 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 8.9ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:01:59 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (167.1ms)
+Completed 500 Internal Server Error in 232ms
+
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x007fdc97bd9c48>:0x007fdc9290af30>):
+    2:   = simple_form_for(@signature) do |f|
+    3:     dl
+    4:       dt
+    5:         = form.label :name
+    6:       dd
+    7:         = form.text_field :name
+    8:       dt
+  app/views/signatures/new.html.slim:5:in `block in _app_views_signatures_new_html_slim___1248096725692017951_70292707822020'
+  app/views/signatures/new.html.slim:2:in `_app_views_signatures_new_html_slim___1248096725692017951_70292707822020'
+  app/controllers/signatures_controller.rb:22:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.1ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:02:34 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (111.8ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined method `name' for #<Signature _id: 5344800a61706f675c010000, >):
+    4:       dt
+    5:         = f.label :name
+    6:       dd
+    7:         = f.text_field :name
+    8:       dt
+    9:         = f.label :signature
+   10:       dd
+  app/views/signatures/new.html.slim:7:in `block in _app_views_signatures_new_html_slim___1248096725692017951_70292669196120'
+  app/views/signatures/new.html.slim:2:in `_app_views_signatures_new_html_slim___1248096725692017951_70292669196120'
+  app/controllers/signatures_controller.rb:22:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.4ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:03:34 -0700
+Processing by SignaturesController#new as HTML
+Completed 500 Internal Server Error in 35ms
+
+TypeError (no implicit conversion of Symbol into Integer):
+  app/models/signature.rb:3:in `<class:Signature>'
+  app/models/signature.rb:1:in `<top (required)>'
+  app/controllers/signatures_controller.rb:21:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.4ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:05:27 -0700
+Processing by SignaturesController#new as HTML
+Completed 500 Internal Server Error in 39ms
+
+NameError (uninitialized constant Signature::Text):
+  app/models/signature.rb:4:in `<class:Signature>'
+  app/models/signature.rb:1:in `<top (required)>'
+  app/controllers/signatures_controller.rb:21:in `new'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.2ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:05:55 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (6.1ms)
+Completed 200 OK in 117ms (Views: 82.9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/pen.cur"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+
+
+Started GET "/signature/new" for 127.0.0.1 at 2014-04-08 16:06:33 -0700
+
+ActionController::RoutingError (No route matches [GET] "/signature/new"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.3ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:06:43 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 14ms (Views: 12.5ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-08 16:08:10 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (13.7ms)
+Completed 200 OK in 25ms (Views: 23.4ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 16:10:55 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (14.1ms)
+Completed 200 OK in 36ms (Views: 29.6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/pen.cur"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 16:17:49 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 14.9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/pen.cur"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 16:18:01 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms)
+
+
+Started GET "/signatures/new" for 192.168.1.104 at 2014-04-08 16:20:19 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (4.2ms)
+Completed 200 OK in 15ms (Views: 13.8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/pen.cur"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+
+
+Started GET "/signatures/new" for 192.168.1.104 at 2014-04-08 16:20:47 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.5ms)
+Completed 200 OK in 14ms (Views: 13.2ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:01:50 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (34.7ms)
+Completed 200 OK in 60ms (Views: 52.3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/pen.cur"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:02:11 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (14.6ms)
+Completed 200 OK in 25ms (Views: 22.9ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:02:27 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (12.6ms)
+Completed 200 OK in 172ms (Views: 171.4ms)
+
+
+Started POST "/signatures" for 192.168.1.102 at 2014-04-08 17:02:39 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lv7XEKc2bg6wLsGx+06pCpX57t0LZxQXhavW8PzV3pY=", "signature"=>{"name"=>"dsfkjlasdf", "signature"=>"[{\"lx\":31,\"ly\":121,\"mx\":31,\"my\":120},{\"lx\":31,\"ly\":118,\"mx\":31,\"my\":121},{\"lx\":38,\"ly\":113,\"mx\":31,\"my\":118},{\"lx\":41,\"ly\":108,\"mx\":38,\"my\":113},{\"lx\":43,\"ly\":106,\"mx\":41,\"my\":108},{\"lx\":44,\"ly\":104,\"mx\":43,\"my\":106},{\"lx\":45,\"ly\":104,\"mx\":44,\"my\":104},{\"lx\":45,\"ly\":105,\"mx\":45,\"my\":104},{\"lx\":45,\"ly\":110,\"mx\":45,\"my\":105},{\"lx\":45,\"ly\":111,\"mx\":45,\"my\":110},{\"lx\":47,\"ly\":113,\"mx\":45,\"my\":111},{\"lx\":58,\"ly\":114,\"mx\":47,\"my\":113},{\"lx\":78,\"ly\":114,\"mx\":58,\"my\":114},{\"lx\":86,\"ly\":114,\"mx\":78,\"my\":114},{\"lx\":92,\"ly\":114,\"mx\":86,\"my\":114},{\"lx\":93,\"ly\":114,\"mx\":92,\"my\":114},{\"lx\":94,\"ly\":114,\"mx\":93,\"my\":114},{\"lx\":93,\"ly\":114,\"mx\":94,\"my\":114},{\"lx\":92,\"ly\":116,\"mx\":93,\"my\":114},{\"lx\":92,\"ly\":117,\"mx\":92,\"my\":116},{\"lx\":92,\"ly\":118,\"mx\":92,\"my\":117},{\"lx\":96,\"ly\":118,\"mx\":92,\"my\":118},{\"lx\":112,\"ly\":117,\"mx\":96,\"my\":118},{\"lx\":125,\"ly\":110,\"mx\":112,\"my\":117},{\"lx\":135,\"ly\":106,\"mx\":125,\"my\":110},{\"lx\":138,\"ly\":104,\"mx\":135,\"my\":106},{\"lx\":139,\"ly\":104,\"mx\":138,\"my\":104},{\"lx\":139,\"ly\":106,\"mx\":139,\"my\":104},{\"lx\":131,\"ly\":114,\"mx\":139,\"my\":106},{\"lx\":127,\"ly\":122,\"mx\":131,\"my\":114},{\"lx\":121,\"ly\":129,\"mx\":127,\"my\":122},{\"lx\":120,\"ly\":133,\"mx\":121,\"my\":129},{\"lx\":120,\"ly\":135,\"mx\":120,\"my\":133},{\"lx\":124,\"ly\":135,\"mx\":120,\"my\":135},{\"lx\":145,\"ly\":135,\"mx\":124,\"my\":135},{\"lx\":174,\"ly\":125,\"mx\":145,\"my\":135},{\"lx\":188,\"ly\":117,\"mx\":174,\"my\":125},{\"lx\":199,\"ly\":110,\"mx\":188,\"my\":117},{\"lx\":203,\"ly\":104,\"mx\":199,\"my\":110},{\"lx\":203,\"ly\":101,\"mx\":203,\"my\":104},{\"lx\":202,\"ly\":100,\"mx\":203,\"my\":101},{\"lx\":187,\"ly\":100,\"mx\":202,\"my\":100},{\"lx\":163,\"ly\":106,\"mx\":187,\"my\":100},{\"lx\":148,\"ly\":113,\"mx\":163,\"my\":106},{\"lx\":139,\"ly\":117,\"mx\":148,\"my\":113},{\"lx\":136,\"ly\":120,\"mx\":139,\"my\":117},{\"lx\":136,\"ly\":121,\"mx\":136,\"my\":120},{\"lx\":150,\"ly\":122,\"mx\":136,\"my\":121},{\"lx\":184,\"ly\":122,\"mx\":150,\"my\":122},{\"lx\":231,\"ly\":105,\"mx\":184,\"my\":122},{\"lx\":257,\"ly\":91,\"mx\":231,\"my\":105},{\"lx\":275,\"ly\":77,\"mx\":257,\"my\":91},{\"lx\":290,\"ly\":66,\"mx\":275,\"my\":77},{\"lx\":295,\"ly\":57,\"mx\":290,\"my\":66},{\"lx\":296,\"ly\":50,\"mx\":295,\"my\":57},{\"lx\":291,\"ly\":47,\"mx\":296,\"my\":50},{\"lx\":273,\"ly\":46,\"mx\":291,\"my\":47},{\"lx\":254,\"ly\":46,\"mx\":273,\"my\":46},{\"lx\":241,\"ly\":49,\"mx\":254,\"my\":46},{\"lx\":233,\"ly\":55,\"mx\":241,\"my\":49},{\"lx\":231,\"ly\":56,\"mx\":233,\"my\":55},{\"lx\":231,\"ly\":59,\"mx\":231,\"my\":56},{\"lx\":238,\"ly\":63,\"mx\":231,\"my\":59},{\"lx\":260,\"ly\":67,\"mx\":238,\"my\":63},{\"lx\":289,\"ly\":72,\"mx\":260,\"my\":67},{\"lx\":315,\"ly\":75,\"mx\":289,\"my\":72},{\"lx\":336,\"ly\":75,\"mx\":315,\"my\":75},{\"lx\":348,\"ly\":75,\"mx\":336,\"my\":75},{\"lx\":357,\"ly\":71,\"mx\":348,\"my\":75},{\"lx\":361,\"ly\":70,\"mx\":357,\"my\":71},{\"lx\":361,\"ly\":69,\"mx\":361,\"my\":70},{\"lx\":362,\"ly\":69,\"mx\":361,\"my\":69},{\"lx\":361,\"ly\":69,\"mx\":362,\"my\":69},{\"lx\":357,\"ly\":69,\"mx\":361,\"my\":69},{\"lx\":351,\"ly\":71,\"mx\":357,\"my\":69},{\"lx\":349,\"ly\":73,\"mx\":351,\"my\":71},{\"lx\":348,\"ly\":74,\"mx\":349,\"my\":73},{\"lx\":347,\"ly\":74,\"mx\":348,\"my\":74},{\"lx\":347,\"ly\":75,\"mx\":347,\"my\":74}]"}, "commit"=>"Create Signature"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/signatures_controller.rb:8:in `new'
+  app/controllers/signatures_controller.rb:8:in `create'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.3ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:08:29 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (5.2ms)
+Completed 200 OK in 55ms (Views: 13.8ms)
+
+
+Started POST "/signatures" for 192.168.1.102 at 2014-04-08 17:08:36 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lv7XEKc2bg6wLsGx+06pCpX57t0LZxQXhavW8PzV3pY=", "signature"=>{"name"=>"fsadfs", "signature"=>"[{\"lx\":20,\"ly\":128,\"mx\":20,\"my\":127},{\"lx\":21,\"ly\":127,\"mx\":20,\"my\":128},{\"lx\":22,\"ly\":127,\"mx\":21,\"my\":127},{\"lx\":23,\"ly\":127,\"mx\":22,\"my\":127},{\"lx\":20,\"ly\":128,\"mx\":23,\"my\":127},{\"lx\":6,\"ly\":142,\"mx\":20,\"my\":128},{\"lx\":-11,\"ly\":160,\"mx\":6,\"my\":142},{\"lx\":27,\"ly\":167,\"mx\":27,\"my\":166},{\"lx\":56,\"ly\":157,\"mx\":27,\"my\":167},{\"lx\":74,\"ly\":152,\"mx\":56,\"my\":157},{\"lx\":91,\"ly\":148,\"mx\":74,\"my\":152},{\"lx\":95,\"ly\":148,\"mx\":91,\"my\":148},{\"lx\":96,\"ly\":148,\"mx\":95,\"my\":148},{\"lx\":97,\"ly\":148,\"mx\":96,\"my\":148},{\"lx\":96,\"ly\":149,\"mx\":97,\"my\":148},{\"lx\":94,\"ly\":150,\"mx\":96,\"my\":149},{\"lx\":97,\"ly\":148,\"mx\":94,\"my\":150},{\"lx\":102,\"ly\":142,\"mx\":97,\"my\":148},{\"lx\":110,\"ly\":135,\"mx\":102,\"my\":142},{\"lx\":112,\"ly\":129,\"mx\":110,\"my\":135},{\"lx\":113,\"ly\":126,\"mx\":112,\"my\":129},{\"lx\":113,\"ly\":124,\"mx\":113,\"my\":126},{\"lx\":108,\"ly\":124,\"mx\":113,\"my\":124},{\"lx\":99,\"ly\":124,\"mx\":108,\"my\":124},{\"lx\":89,\"ly\":124,\"mx\":99,\"my\":124},{\"lx\":82,\"ly\":124,\"mx\":89,\"my\":124},{\"lx\":80,\"ly\":124,\"mx\":82,\"my\":124},{\"lx\":80,\"ly\":123,\"mx\":80,\"my\":124},{\"lx\":80,\"ly\":122,\"mx\":80,\"my\":123},{\"lx\":80,\"ly\":121,\"mx\":80,\"my\":122},{\"lx\":78,\"ly\":125,\"mx\":80,\"my\":121},{\"lx\":73,\"ly\":132,\"mx\":78,\"my\":125},{\"lx\":69,\"ly\":138,\"mx\":73,\"my\":132},{\"lx\":67,\"ly\":141,\"mx\":69,\"my\":138},{\"lx\":67,\"ly\":142,\"mx\":67,\"my\":141},{\"lx\":82,\"ly\":128,\"mx\":67,\"my\":142},{\"lx\":129,\"ly\":94,\"mx\":82,\"my\":128},{\"lx\":173,\"ly\":63,\"mx\":129,\"my\":94},{\"lx\":204,\"ly\":43,\"mx\":173,\"my\":63},{\"lx\":221,\"ly\":33,\"mx\":204,\"my\":43},{\"lx\":225,\"ly\":33,\"mx\":221,\"my\":33},{\"lx\":221,\"ly\":35,\"mx\":225,\"my\":33},{\"lx\":194,\"ly\":56,\"mx\":221,\"my\":35},{\"lx\":163,\"ly\":76,\"mx\":194,\"my\":56},{\"lx\":144,\"ly\":89,\"mx\":163,\"my\":76},{\"lx\":131,\"ly\":97,\"mx\":144,\"my\":89},{\"lx\":125,\"ly\":100,\"mx\":131,\"my\":97},{\"lx\":124,\"ly\":101,\"mx\":125,\"my\":100},{\"lx\":125,\"ly\":101,\"mx\":124,\"my\":101},{\"lx\":126,\"ly\":101,\"mx\":125,\"my\":101},{\"lx\":126,\"ly\":102,\"mx\":126,\"my\":101},{\"lx\":126,\"ly\":105,\"mx\":126,\"my\":102},{\"lx\":115,\"ly\":124,\"mx\":126,\"my\":105},{\"lx\":101,\"ly\":144,\"mx\":115,\"my\":124},{\"lx\":91,\"ly\":155,\"mx\":101,\"my\":144},{\"lx\":86,\"ly\":162,\"mx\":91,\"my\":155},{\"lx\":84,\"ly\":164,\"mx\":86,\"my\":162},{\"lx\":131,\"ly\":145,\"mx\":84,\"my\":164},{\"lx\":181,\"ly\":122,\"mx\":131,\"my\":145},{\"lx\":222,\"ly\":107,\"mx\":181,\"my\":122},{\"lx\":246,\"ly\":101,\"mx\":222,\"my\":107},{\"lx\":264,\"ly\":96,\"mx\":246,\"my\":101},{\"lx\":269,\"ly\":94,\"mx\":264,\"my\":96},{\"lx\":270,\"ly\":94,\"mx\":269,\"my\":94},{\"lx\":270,\"ly\":95,\"mx\":270,\"my\":94},{\"lx\":266,\"ly\":97,\"mx\":270,\"my\":95},{\"lx\":260,\"ly\":101,\"mx\":266,\"my\":97},{\"lx\":254,\"ly\":105,\"mx\":260,\"my\":101},{\"lx\":250,\"ly\":108,\"mx\":254,\"my\":105},{\"lx\":247,\"ly\":111,\"mx\":250,\"my\":108},{\"lx\":246,\"ly\":112,\"mx\":247,\"my\":111},{\"lx\":246,\"ly\":113,\"mx\":246,\"my\":112},{\"lx\":247,\"ly\":113,\"mx\":246,\"my\":113},{\"lx\":257,\"ly\":112,\"mx\":247,\"my\":113},{\"lx\":267,\"ly\":107,\"mx\":257,\"my\":112},{\"lx\":277,\"ly\":104,\"mx\":267,\"my\":107},{\"lx\":283,\"ly\":102,\"mx\":277,\"my\":104},{\"lx\":288,\"ly\":102,\"mx\":283,\"my\":102},{\"lx\":290,\"ly\":101,\"mx\":288,\"my\":102},{\"lx\":291,\"ly\":101,\"mx\":290,\"my\":101}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7270ms
+Completed 500 Internal Server Error in 7ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set #<Moped::Cluster:70292709183680 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/signatures_controller.rb:10:in `block in create'
+  app/controllers/signatures_controller.rb:9:in `create'
+
+
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.0ms)
+
+
+Started POST "/signatures" for 192.168.1.102 at 2014-04-08 17:09:22 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lv7XEKc2bg6wLsGx+06pCpX57t0LZxQXhavW8PzV3pY=", "signature"=>{"name"=>"fsadfs", "signature"=>"[{\"lx\":7,\"ly\":123,\"mx\":7,\"my\":122},{\"lx\":10,\"ly\":121,\"mx\":7,\"my\":123},{\"lx\":16,\"ly\":118,\"mx\":10,\"my\":121},{\"lx\":21,\"ly\":115,\"mx\":16,\"my\":118},{\"lx\":26,\"ly\":114,\"mx\":21,\"my\":115},{\"lx\":28,\"ly\":114,\"mx\":26,\"my\":114},{\"lx\":29,\"ly\":114,\"mx\":28,\"my\":114},{\"lx\":29,\"ly\":119,\"mx\":29,\"my\":114},{\"lx\":22,\"ly\":130,\"mx\":29,\"my\":119},{\"lx\":19,\"ly\":138,\"mx\":22,\"my\":130},{\"lx\":15,\"ly\":143,\"mx\":19,\"my\":138},{\"lx\":13,\"ly\":146,\"mx\":15,\"my\":143},{\"lx\":18,\"ly\":146,\"mx\":13,\"my\":146},{\"lx\":70,\"ly\":128,\"mx\":18,\"my\":146},{\"lx\":107,\"ly\":118,\"mx\":70,\"my\":128},{\"lx\":141,\"ly\":111,\"mx\":107,\"my\":118},{\"lx\":168,\"ly\":107,\"mx\":141,\"my\":111},{\"lx\":179,\"ly\":107,\"mx\":168,\"my\":107},{\"lx\":181,\"ly\":107,\"mx\":179,\"my\":107},{\"lx\":179,\"ly\":110,\"mx\":181,\"my\":107},{\"lx\":173,\"ly\":114,\"mx\":179,\"my\":110},{\"lx\":168,\"ly\":118,\"mx\":173,\"my\":114},{\"lx\":166,\"ly\":119,\"mx\":168,\"my\":118},{\"lx\":165,\"ly\":119,\"mx\":166,\"my\":119},{\"lx\":165,\"ly\":116,\"mx\":165,\"my\":119},{\"lx\":174,\"ly\":109,\"mx\":165,\"my\":116},{\"lx\":180,\"ly\":104,\"mx\":174,\"my\":109},{\"lx\":183,\"ly\":104,\"mx\":180,\"my\":104},{\"lx\":184,\"ly\":104,\"mx\":183,\"my\":104},{\"lx\":176,\"ly\":104,\"mx\":184,\"my\":104},{\"lx\":158,\"ly\":104,\"mx\":176,\"my\":104},{\"lx\":122,\"ly\":109,\"mx\":158,\"my\":104},{\"lx\":114,\"ly\":110,\"mx\":122,\"my\":109},{\"lx\":111,\"ly\":110,\"mx\":114,\"my\":110},{\"lx\":112,\"ly\":109,\"mx\":111,\"my\":110},{\"lx\":121,\"ly\":104,\"mx\":112,\"my\":109},{\"lx\":131,\"ly\":101,\"mx\":121,\"my\":104},{\"lx\":136,\"ly\":100,\"mx\":131,\"my\":101},{\"lx\":139,\"ly\":100,\"mx\":136,\"my\":100},{\"lx\":140,\"ly\":100,\"mx\":139,\"my\":100},{\"lx\":136,\"ly\":104,\"mx\":140,\"my\":100},{\"lx\":127,\"ly\":113,\"mx\":136,\"my\":104},{\"lx\":117,\"ly\":123,\"mx\":127,\"my\":113},{\"lx\":110,\"ly\":129,\"mx\":117,\"my\":123},{\"lx\":105,\"ly\":133,\"mx\":110,\"my\":129},{\"lx\":103,\"ly\":135,\"mx\":105,\"my\":133},{\"lx\":102,\"ly\":135,\"mx\":103,\"my\":135},{\"lx\":102,\"ly\":129,\"mx\":102,\"my\":135},{\"lx\":106,\"ly\":120,\"mx\":102,\"my\":129},{\"lx\":118,\"ly\":111,\"mx\":106,\"my\":120},{\"lx\":148,\"ly\":95,\"mx\":118,\"my\":111},{\"lx\":198,\"ly\":86,\"mx\":148,\"my\":95},{\"lx\":248,\"ly\":83,\"mx\":198,\"my\":86},{\"lx\":303,\"ly\":81,\"mx\":248,\"my\":83},{\"lx\":323,\"ly\":81,\"mx\":303,\"my\":81},{\"lx\":331,\"ly\":81,\"mx\":323,\"my\":81},{\"lx\":332,\"ly\":81,\"mx\":331,\"my\":81},{\"lx\":332,\"ly\":83,\"mx\":332,\"my\":81},{\"lx\":306,\"ly\":98,\"mx\":332,\"my\":83},{\"lx\":274,\"ly\":115,\"mx\":306,\"my\":98},{\"lx\":260,\"ly\":123,\"mx\":274,\"my\":115},{\"lx\":243,\"ly\":129,\"mx\":260,\"my\":123},{\"lx\":238,\"ly\":131,\"mx\":243,\"my\":129},{\"lx\":237,\"ly\":131,\"mx\":238,\"my\":131},{\"lx\":237,\"ly\":125,\"mx\":237,\"my\":131},{\"lx\":241,\"ly\":120,\"mx\":237,\"my\":125},{\"lx\":245,\"ly\":116,\"mx\":241,\"my\":120},{\"lx\":247,\"ly\":115,\"mx\":245,\"my\":116},{\"lx\":251,\"ly\":115,\"mx\":247,\"my\":115},{\"lx\":261,\"ly\":115,\"mx\":251,\"my\":115},{\"lx\":269,\"ly\":115,\"mx\":261,\"my\":115},{\"lx\":278,\"ly\":115,\"mx\":269,\"my\":115},{\"lx\":283,\"ly\":115,\"mx\":278,\"my\":115},{\"lx\":285,\"ly\":115,\"mx\":283,\"my\":115},{\"lx\":286,\"ly\":115,\"mx\":285,\"my\":115},{\"lx\":287,\"ly\":115,\"mx\":286,\"my\":115},{\"lx\":287,\"ly\":116,\"mx\":287,\"my\":115},{\"lx\":286,\"ly\":116,\"mx\":287,\"my\":116},{\"lx\":284,\"ly\":116,\"mx\":286,\"my\":116},{\"lx\":279,\"ly\":117,\"mx\":284,\"my\":116},{\"lx\":268,\"ly\":119,\"mx\":279,\"my\":117},{\"lx\":248,\"ly\":124,\"mx\":268,\"my\":119},{\"lx\":226,\"ly\":128,\"mx\":248,\"my\":124},{\"lx\":212,\"ly\":132,\"mx\":226,\"my\":128}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.8570ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('53448fb261706f675c020000')}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 503.9390ms
+Redirected to http://192.168.1.102:3000/signatures/53448fb261706f675c020000
+Completed 302 Found in 513ms
+
+
+Started GET "/signatures/53448fb261706f675c020000" for 192.168.1.102 at 2014-04-08 17:09:22 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"53448fb261706f675c020000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('53448fb261706f675c020000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 3.3210ms
+  Rendered signatures/show.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 15.3ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:12:22 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (5.0ms)
+Completed 200 OK in 49ms (Views: 13.7ms)
+
+
+Started POST "/signatures" for 192.168.1.102 at 2014-04-08 17:12:42 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lv7XEKc2bg6wLsGx+06pCpX57t0LZxQXhavW8PzV3pY=", "signature"=>{"name"=>"john henry", "signature"=>"[{\"lx\":14,\"ly\":131,\"mx\":14,\"my\":130},{\"lx\":18,\"ly\":130,\"mx\":14,\"my\":131},{\"lx\":35,\"ly\":121,\"mx\":18,\"my\":130},{\"lx\":45,\"ly\":109,\"mx\":35,\"my\":121},{\"lx\":10,\"ly\":160,\"mx\":45,\"my\":109},{\"lx\":10,\"ly\":164,\"mx\":10,\"my\":160},{\"lx\":10,\"ly\":165,\"mx\":10,\"my\":164},{\"lx\":22,\"ly\":165,\"mx\":10,\"my\":165},{\"lx\":28,\"ly\":165,\"mx\":22,\"my\":165},{\"lx\":31,\"ly\":165,\"mx\":28,\"my\":165},{\"lx\":30,\"ly\":165,\"mx\":31,\"my\":165},{\"lx\":29,\"ly\":165,\"mx\":30,\"my\":165},{\"lx\":28,\"ly\":165,\"mx\":29,\"my\":165},{\"lx\":28,\"ly\":164,\"mx\":28,\"my\":165},{\"lx\":32,\"ly\":158,\"mx\":28,\"my\":164},{\"lx\":44,\"ly\":148,\"mx\":32,\"my\":158},{\"lx\":65,\"ly\":132,\"mx\":44,\"my\":148},{\"lx\":84,\"ly\":121,\"mx\":65,\"my\":132},{\"lx\":101,\"ly\":110,\"mx\":84,\"my\":121},{\"lx\":116,\"ly\":101,\"mx\":101,\"my\":110},{\"lx\":121,\"ly\":98,\"mx\":116,\"my\":101},{\"lx\":122,\"ly\":96,\"mx\":121,\"my\":98},{\"lx\":120,\"ly\":96,\"mx\":122,\"my\":96},{\"lx\":116,\"ly\":96,\"mx\":120,\"my\":96},{\"lx\":113,\"ly\":99,\"mx\":116,\"my\":96},{\"lx\":112,\"ly\":100,\"mx\":113,\"my\":99},{\"lx\":116,\"ly\":97,\"mx\":112,\"my\":100},{\"lx\":121,\"ly\":94,\"mx\":116,\"my\":97},{\"lx\":122,\"ly\":92,\"mx\":121,\"my\":94},{\"lx\":123,\"ly\":92,\"mx\":122,\"my\":92},{\"lx\":123,\"ly\":93,\"mx\":123,\"my\":92},{\"lx\":124,\"ly\":93,\"mx\":123,\"my\":93},{\"lx\":125,\"ly\":93,\"mx\":124,\"my\":93},{\"lx\":128,\"ly\":93,\"mx\":125,\"my\":93},{\"lx\":130,\"ly\":93,\"mx\":128,\"my\":93},{\"lx\":131,\"ly\":93,\"mx\":130,\"my\":93},{\"lx\":133,\"ly\":93,\"mx\":131,\"my\":93},{\"lx\":134,\"ly\":93,\"mx\":133,\"my\":93},{\"lx\":134,\"ly\":94,\"mx\":134,\"my\":93},{\"lx\":134,\"ly\":95,\"mx\":134,\"my\":94},{\"lx\":134,\"ly\":97,\"mx\":134,\"my\":95},{\"lx\":134,\"ly\":98,\"mx\":134,\"my\":97},{\"lx\":134,\"ly\":100,\"mx\":134,\"my\":98},{\"lx\":137,\"ly\":101,\"mx\":134,\"my\":100},{\"lx\":146,\"ly\":101,\"mx\":137,\"my\":101},{\"lx\":156,\"ly\":101,\"mx\":146,\"my\":101},{\"lx\":166,\"ly\":103,\"mx\":156,\"my\":101},{\"lx\":172,\"ly\":105,\"mx\":166,\"my\":103},{\"lx\":199,\"ly\":86,\"mx\":199,\"my\":85},{\"lx\":203,\"ly\":85,\"mx\":199,\"my\":86},{\"lx\":225,\"ly\":85,\"mx\":203,\"my\":85},{\"lx\":245,\"ly\":83,\"mx\":225,\"my\":85},{\"lx\":255,\"ly\":79,\"mx\":245,\"my\":83},{\"lx\":267,\"ly\":75,\"mx\":255,\"my\":79},{\"lx\":269,\"ly\":73,\"mx\":267,\"my\":75},{\"lx\":270,\"ly\":73,\"mx\":269,\"my\":73},{\"lx\":259,\"ly\":83,\"mx\":270,\"my\":73},{\"lx\":248,\"ly\":94,\"mx\":259,\"my\":83},{\"lx\":240,\"ly\":105,\"mx\":248,\"my\":94},{\"lx\":233,\"ly\":112,\"mx\":240,\"my\":105},{\"lx\":231,\"ly\":115,\"mx\":233,\"my\":112},{\"lx\":231,\"ly\":116,\"mx\":231,\"my\":115},{\"lx\":235,\"ly\":116,\"mx\":231,\"my\":116},{\"lx\":242,\"ly\":116,\"mx\":235,\"my\":116},{\"lx\":249,\"ly\":114,\"mx\":242,\"my\":116},{\"lx\":251,\"ly\":114,\"mx\":249,\"my\":114},{\"lx\":251,\"ly\":115,\"mx\":251,\"my\":114},{\"lx\":251,\"ly\":116,\"mx\":251,\"my\":115},{\"lx\":251,\"ly\":117,\"mx\":251,\"my\":116},{\"lx\":252,\"ly\":117,\"mx\":251,\"my\":117},{\"lx\":263,\"ly\":117,\"mx\":252,\"my\":117},{\"lx\":269,\"ly\":115,\"mx\":263,\"my\":117},{\"lx\":274,\"ly\":114,\"mx\":269,\"my\":115},{\"lx\":276,\"ly\":114,\"mx\":274,\"my\":114},{\"lx\":277,\"ly\":114,\"mx\":276,\"my\":114},{\"lx\":279,\"ly\":114,\"mx\":277,\"my\":114},{\"lx\":285,\"ly\":116,\"mx\":279,\"my\":114},{\"lx\":293,\"ly\":118,\"mx\":285,\"my\":116},{\"lx\":302,\"ly\":121,\"mx\":293,\"my\":118},{\"lx\":309,\"ly\":124,\"mx\":302,\"my\":121},{\"lx\":311,\"ly\":125,\"mx\":309,\"my\":124},{\"lx\":312,\"ly\":126,\"mx\":311,\"my\":125},{\"lx\":314,\"ly\":128,\"mx\":312,\"my\":126}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6600ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5344907a61706f675c030000'), "name"=>nil, "signature"=>"{\"name\"=>\"john henry\", \"signature\"=>\"[{\\\"lx\\\":14,\\\"ly\\\":131,\\\"mx\\\":14,\\\"my\\\":130},{\\\"lx\\\":18,\\\"ly\\\":130,\\\"mx\\\":14,\\\"my\\\":131},{\\\"lx\\\":35,\\\"ly\\\":121,\\\"mx\\\":18,\\\"my\\\":130},{\\\"lx\\\":45,\\\"ly\\\":109,\\\"mx\\\":35,\\\"my\\\":121},{\\\"lx\\\":10,\\\"ly\\\":160,\\\"mx\\\":45,\\\"my\\\":109},{\\\"lx\\\":10,\\\"ly\\\":164,\\\"mx\\\":10,\\\"my\\\":160},{\\\"lx\\\":10,\\\"ly\\\":165,\\\"mx\\\":10,\\\"my\\\":164},{\\\"lx\\\":22,\\\"ly\\\":165,\\\"mx\\\":10,\\\"my\\\":165},{\\\"lx\\\":28,\\\"ly\\\":165,\\\"mx\\\":22,\\\"my\\\":165},{\\\"lx\\\":31,\\\"ly\\\":165,\\\"mx\\\":28,\\\"my\\\":165},{\\\"lx\\\":30,\\\"ly\\\":165,\\\"mx\\\":31,\\\"my\\\":165},{\\\"lx\\\":29,\\\"ly\\\":165,\\\"mx\\\":30,\\\"my\\\":165},{\\\"lx\\\":28,\\\"ly\\\":165,\\\"mx\\\":29,\\\"my\\\":165},{\\\"lx\\\":28,\\\"ly\\\":164,\\\"mx\\\":28,\\\"my\\\":165},{\\\"lx\\\":32,\\\"ly\\\":158,\\\"mx\\\":28,\\\"my\\\":164},{\\\"lx\\\":44,\\\"ly\\\":148,\\\"mx\\\":32,\\\"my\\\":158},{\\\"lx\\\":65,\\\"ly\\\":132,\\\"mx\\\":44,\\\"my\\\":148},{\\\"lx\\\":84,\\\"ly\\\":121,\\\"mx\\\":65,\\\"my\\\":132},{\\\"lx\\\":101,\\\"ly\\\":110,\\\"mx\\\":84,\\\"my\\\":121},{\\\"lx\\\":116,\\\"ly\\\":101,\\\"mx\\\":101,\\\"my\\\":110},{\\\"lx\\\":121,\\\"ly\\\":98,\\\"mx\\\":116,\\\"my\\\":101},{\\\"lx\\\":122,\\\"ly\\\":96,\\\"mx\\\":121,\\\"my\\\":98},{\\\"lx\\\":120,\\\"ly\\\":96,\\\"mx\\\":122,\\\"my\\\":96},{\\\"lx\\\":116,\\\"ly\\\":96,\\\"mx\\\":120,\\\"my\\\":96},{\\\"lx\\\":113,\\\"ly\\\":99,\\\"mx\\\":116,\\\"my\\\":96},{\\\"lx\\\":112,\\\"ly\\\":100,\\\"mx\\\":113,\\\"my\\\":99},{\\\"lx\\\":116,\\\"ly\\\":97,\\\"mx\\\":112,\\\"my\\\":100},{\\\"lx\\\":121,\\\"ly\\\":94,\\\"mx\\\":116,\\\"my\\\":97},{\\\"lx\\\":122,\\\"ly\\\":92,\\\"mx\\\":121,\\\"my\\\":94},{\\\"lx\\\":123,\\\"ly\\\":92,\\\"mx\\\":122,\\\"my\\\":92},{\\\"lx\\\":123,\\\"ly\\\":93,\\\"mx\\\":123,\\\"my\\\":92},{\\\"lx\\\":124,\\\"ly\\\":93,\\\"mx\\\":123,\\\"my\\\":93},{\\\"lx\\\":125,\\\"ly\\\":93,\\\"mx\\\":124,\\\"my\\\":93},{\\\"lx\\\":128,\\\"ly\\\":93,\\\"mx\\\":125,\\\"my\\\":93},{\\\"lx\\\":130,\\\"ly\\\":93,\\\"mx\\\":128,\\\"my\\\":93},{\\\"lx\\\":131,\\\"ly\\\":93,\\\"mx\\\":130,\\\"my\\\":93},{\\\"lx\\\":133,\\\"ly\\\":93,\\\"mx\\\":131,\\\"my\\\":93},{\\\"lx\\\":134,\\\"ly\\\":93,\\\"mx\\\":133,\\\"my\\\":93},{\\\"lx\\\":134,\\\"ly\\\":94,\\\"mx\\\":134,\\\"my\\\":93},{\\\"lx\\\":134,\\\"ly\\\":95,\\\"mx\\\":134,\\\"my\\\":94},{\\\"lx\\\":134,\\\"ly\\\":97,\\\"mx\\\":134,\\\"my\\\":95},{\\\"lx\\\":134,\\\"ly\\\":98,\\\"mx\\\":134,\\\"my\\\":97},{\\\"lx\\\":134,\\\"ly\\\":100,\\\"mx\\\":134,\\\"my\\\":98},{\\\"lx\\\":137,\\\"ly\\\":101,\\\"mx\\\":134,\\\"my\\\":100},{\\\"lx\\\":146,\\\"ly\\\":101,\\\"mx\\\":137,\\\"my\\\":101},{\\\"lx\\\":156,\\\"ly\\\":101,\\\"mx\\\":146,\\\"my\\\":101},{\\\"lx\\\":166,\\\"ly\\\":103,\\\"mx\\\":156,\\\"my\\\":101},{\\\"lx\\\":172,\\\"ly\\\":105,\\\"mx\\\":166,\\\"my\\\":103},{\\\"lx\\\":199,\\\"ly\\\":86,\\\"mx\\\":199,\\\"my\\\":85},{\\\"lx\\\":203,\\\"ly\\\":85,\\\"mx\\\":199,\\\"my\\\":86},{\\\"lx\\\":225,\\\"ly\\\":85,\\\"mx\\\":203,\\\"my\\\":85},{\\\"lx\\\":245,\\\"ly\\\":83,\\\"mx\\\":225,\\\"my\\\":85},{\\\"lx\\\":255,\\\"ly\\\":79,\\\"mx\\\":245,\\\"my\\\":83},{\\\"lx\\\":267,\\\"ly\\\":75,\\\"mx\\\":255,\\\"my\\\":79},{\\\"lx\\\":269,\\\"ly\\\":73,\\\"mx\\\":267,\\\"my\\\":75},{\\\"lx\\\":270,\\\"ly\\\":73,\\\"mx\\\":269,\\\"my\\\":73},{\\\"lx\\\":259,\\\"ly\\\":83,\\\"mx\\\":270,\\\"my\\\":73},{\\\"lx\\\":248,\\\"ly\\\":94,\\\"mx\\\":259,\\\"my\\\":83},{\\\"lx\\\":240,\\\"ly\\\":105,\\\"mx\\\":248,\\\"my\\\":94},{\\\"lx\\\":233,\\\"ly\\\":112,\\\"mx\\\":240,\\\"my\\\":105},{\\\"lx\\\":231,\\\"ly\\\":115,\\\"mx\\\":233,\\\"my\\\":112},{\\\"lx\\\":231,\\\"ly\\\":116,\\\"mx\\\":231,\\\"my\\\":115},{\\\"lx\\\":235,\\\"ly\\\":116,\\\"mx\\\":231,\\\"my\\\":116},{\\\"lx\\\":242,\\\"ly\\\":116,\\\"mx\\\":235,\\\"my\\\":116},{\\\"lx\\\":249,\\\"ly\\\":114,\\\"mx\\\":242,\\\"my\\\":116},{\\\"lx\\\":251,\\\"ly\\\":114,\\\"mx\\\":249,\\\"my\\\":114},{\\\"lx\\\":251,\\\"ly\\\":115,\\\"mx\\\":251,\\\"my\\\":114},{\\\"lx\\\":251,\\\"ly\\\":116,\\\"mx\\\":251,\\\"my\\\":115},{\\\"lx\\\":251,\\\"ly\\\":117,\\\"mx\\\":251,\\\"my\\\":116},{\\\"lx\\\":252,\\\"ly\\\":117,\\\"mx\\\":251,\\\"my\\\":117},{\\\"lx\\\":263,\\\"ly\\\":117,\\\"mx\\\":252,\\\"my\\\":117},{\\\"lx\\\":269,\\\"ly\\\":115,\\\"mx\\\":263,\\\"my\\\":117},{\\\"lx\\\":274,\\\"ly\\\":114,\\\"mx\\\":269,\\\"my\\\":115},{\\\"lx\\\":276,\\\"ly\\\":114,\\\"mx\\\":274,\\\"my\\\":114},{\\\"lx\\\":277,\\\"ly\\\":114,\\\"mx\\\":276,\\\"my\\\":114},{\\\"lx\\\":279,\\\"ly\\\":114,\\\"mx\\\":277,\\\"my\\\":114},{\\\"lx\\\":285,\\\"ly\\\":116,\\\"mx\\\":279,\\\"my\\\":114},{\\\"lx\\\":293,\\\"ly\\\":118,\\\"mx\\\":285,\\\"my\\\":116},{\\\"lx\\\":302,\\\"ly\\\":121,\\\"mx\\\":293,\\\"my\\\":118},{\\\"lx\\\":309,\\\"ly\\\":124,\\\"mx\\\":302,\\\"my\\\":121},{\\\"lx\\\":311,\\\"ly\\\":125,\\\"mx\\\":309,\\\"my\\\":124},{\\\"lx\\\":312,\\\"ly\\\":126,\\\"mx\\\":311,\\\"my\\\":125},{\\\"lx\\\":314,\\\"ly\\\":128,\\\"mx\\\":312,\\\"my\\\":126}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.6760ms
+Redirected to http://192.168.1.102:3000/signatures/5344907a61706f675c030000
+Completed 302 Found in 7ms
+
+
+Started GET "/signatures/5344907a61706f675c030000" for 192.168.1.102 at 2014-04-08 17:12:42 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"5344907a61706f675c030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('5344907a61706f675c030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5930ms
+  Rendered signatures/show.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 8.2ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:15:00 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (4.3ms)
+Completed 200 OK in 14ms (Views: 13.0ms)
+
+
+Started POST "/signatures" for 192.168.1.102 at 2014-04-08 17:15:11 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lv7XEKc2bg6wLsGx+06pCpX57t0LZxQXhavW8PzV3pY=", "signature"=>{"name"=>"drazen", "signature"=>"[{\"lx\":22,\"ly\":115,\"mx\":22,\"my\":114},{\"lx\":27,\"ly\":111,\"mx\":22,\"my\":115},{\"lx\":52,\"ly\":90,\"mx\":27,\"my\":111},{\"lx\":72,\"ly\":73,\"mx\":52,\"my\":90},{\"lx\":60,\"ly\":56,\"mx\":72,\"my\":73},{\"lx\":29,\"ly\":90,\"mx\":60,\"my\":56},{\"lx\":20,\"ly\":100,\"mx\":29,\"my\":90},{\"lx\":14,\"ly\":110,\"mx\":20,\"my\":100},{\"lx\":12,\"ly\":114,\"mx\":14,\"my\":110},{\"lx\":11,\"ly\":116,\"mx\":12,\"my\":114},{\"lx\":11,\"ly\":117,\"mx\":11,\"my\":116},{\"lx\":20,\"ly\":116,\"mx\":11,\"my\":117},{\"lx\":28,\"ly\":110,\"mx\":20,\"my\":116},{\"lx\":32,\"ly\":105,\"mx\":28,\"my\":110},{\"lx\":34,\"ly\":103,\"mx\":32,\"my\":105},{\"lx\":35,\"ly\":103,\"mx\":34,\"my\":103},{\"lx\":35,\"ly\":104,\"mx\":35,\"my\":103},{\"lx\":35,\"ly\":111,\"mx\":35,\"my\":104},{\"lx\":33,\"ly\":115,\"mx\":35,\"my\":111},{\"lx\":33,\"ly\":118,\"mx\":33,\"my\":115},{\"lx\":39,\"ly\":118,\"mx\":33,\"my\":118},{\"lx\":67,\"ly\":102,\"mx\":39,\"my\":118},{\"lx\":84,\"ly\":91,\"mx\":67,\"my\":102},{\"lx\":103,\"ly\":79,\"mx\":84,\"my\":91},{\"lx\":109,\"ly\":76,\"mx\":103,\"my\":79},{\"lx\":110,\"ly\":76,\"mx\":109,\"my\":76},{\"lx\":110,\"ly\":77,\"mx\":110,\"my\":76},{\"lx\":110,\"ly\":78,\"mx\":110,\"my\":77},{\"lx\":110,\"ly\":79,\"mx\":110,\"my\":78},{\"lx\":110,\"ly\":80,\"mx\":110,\"my\":79},{\"lx\":111,\"ly\":80,\"mx\":110,\"my\":80},{\"lx\":112,\"ly\":81,\"mx\":111,\"my\":80},{\"lx\":114,\"ly\":81,\"mx\":112,\"my\":81},{\"lx\":115,\"ly\":82,\"mx\":114,\"my\":81},{\"lx\":116,\"ly\":82,\"mx\":115,\"my\":82},{\"lx\":116,\"ly\":83,\"mx\":116,\"my\":82},{\"lx\":116,\"ly\":84,\"mx\":116,\"my\":83},{\"lx\":116,\"ly\":85,\"mx\":116,\"my\":84},{\"lx\":117,\"ly\":86,\"mx\":116,\"my\":85},{\"lx\":117,\"ly\":88,\"mx\":117,\"my\":86},{\"lx\":117,\"ly\":89,\"mx\":117,\"my\":88},{\"lx\":118,\"ly\":90,\"mx\":117,\"my\":89},{\"lx\":107,\"ly\":96,\"mx\":107,\"my\":95},{\"lx\":111,\"ly\":95,\"mx\":107,\"my\":96},{\"lx\":127,\"ly\":95,\"mx\":111,\"my\":95},{\"lx\":167,\"ly\":95,\"mx\":127,\"my\":95},{\"lx\":197,\"ly\":94,\"mx\":167,\"my\":95},{\"lx\":220,\"ly\":90,\"mx\":197,\"my\":94},{\"lx\":236,\"ly\":88,\"mx\":220,\"my\":90},{\"lx\":241,\"ly\":87,\"mx\":236,\"my\":88},{\"lx\":237,\"ly\":88,\"mx\":241,\"my\":87},{\"lx\":225,\"ly\":97,\"mx\":237,\"my\":88},{\"lx\":221,\"ly\":101,\"mx\":225,\"my\":97},{\"lx\":215,\"ly\":105,\"mx\":221,\"my\":101},{\"lx\":214,\"ly\":106,\"mx\":215,\"my\":105},{\"lx\":214,\"ly\":107,\"mx\":214,\"my\":106},{\"lx\":213,\"ly\":109,\"mx\":214,\"my\":107},{\"lx\":212,\"ly\":111,\"mx\":213,\"my\":109},{\"lx\":211,\"ly\":112,\"mx\":212,\"my\":111},{\"lx\":212,\"ly\":111,\"mx\":211,\"my\":112},{\"lx\":215,\"ly\":109,\"mx\":212,\"my\":111},{\"lx\":217,\"ly\":107,\"mx\":215,\"my\":109},{\"lx\":218,\"ly\":106,\"mx\":217,\"my\":107},{\"lx\":219,\"ly\":105,\"mx\":218,\"my\":106},{\"lx\":217,\"ly\":105,\"mx\":219,\"my\":105},{\"lx\":209,\"ly\":105,\"mx\":217,\"my\":105},{\"lx\":203,\"ly\":107,\"mx\":209,\"my\":105},{\"lx\":199,\"ly\":109,\"mx\":203,\"my\":107},{\"lx\":198,\"ly\":110,\"mx\":199,\"my\":109},{\"lx\":201,\"ly\":110,\"mx\":198,\"my\":110},{\"lx\":217,\"ly\":104,\"mx\":201,\"my\":110},{\"lx\":226,\"ly\":102,\"mx\":217,\"my\":104},{\"lx\":233,\"ly\":100,\"mx\":226,\"my\":102},{\"lx\":238,\"ly\":100,\"mx\":233,\"my\":100},{\"lx\":239,\"ly\":100,\"mx\":238,\"my\":100},{\"lx\":240,\"ly\":100,\"mx\":239,\"my\":100},{\"lx\":241,\"ly\":104,\"mx\":240,\"my\":100},{\"lx\":243,\"ly\":104,\"mx\":241,\"my\":104},{\"lx\":250,\"ly\":106,\"mx\":243,\"my\":104},{\"lx\":255,\"ly\":107,\"mx\":250,\"my\":106},{\"lx\":260,\"ly\":107,\"mx\":255,\"my\":107},{\"lx\":262,\"ly\":107,\"mx\":260,\"my\":107},{\"lx\":263,\"ly\":108,\"mx\":262,\"my\":107}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0790ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5344910f61706f675c040000'), "name"=>nil, "signature"=>"{\"name\"=>\"drazen\", \"signature\"=>\"[{\\\"lx\\\":22,\\\"ly\\\":115,\\\"mx\\\":22,\\\"my\\\":114},{\\\"lx\\\":27,\\\"ly\\\":111,\\\"mx\\\":22,\\\"my\\\":115},{\\\"lx\\\":52,\\\"ly\\\":90,\\\"mx\\\":27,\\\"my\\\":111},{\\\"lx\\\":72,\\\"ly\\\":73,\\\"mx\\\":52,\\\"my\\\":90},{\\\"lx\\\":60,\\\"ly\\\":56,\\\"mx\\\":72,\\\"my\\\":73},{\\\"lx\\\":29,\\\"ly\\\":90,\\\"mx\\\":60,\\\"my\\\":56},{\\\"lx\\\":20,\\\"ly\\\":100,\\\"mx\\\":29,\\\"my\\\":90},{\\\"lx\\\":14,\\\"ly\\\":110,\\\"mx\\\":20,\\\"my\\\":100},{\\\"lx\\\":12,\\\"ly\\\":114,\\\"mx\\\":14,\\\"my\\\":110},{\\\"lx\\\":11,\\\"ly\\\":116,\\\"mx\\\":12,\\\"my\\\":114},{\\\"lx\\\":11,\\\"ly\\\":117,\\\"mx\\\":11,\\\"my\\\":116},{\\\"lx\\\":20,\\\"ly\\\":116,\\\"mx\\\":11,\\\"my\\\":117},{\\\"lx\\\":28,\\\"ly\\\":110,\\\"mx\\\":20,\\\"my\\\":116},{\\\"lx\\\":32,\\\"ly\\\":105,\\\"mx\\\":28,\\\"my\\\":110},{\\\"lx\\\":34,\\\"ly\\\":103,\\\"mx\\\":32,\\\"my\\\":105},{\\\"lx\\\":35,\\\"ly\\\":103,\\\"mx\\\":34,\\\"my\\\":103},{\\\"lx\\\":35,\\\"ly\\\":104,\\\"mx\\\":35,\\\"my\\\":103},{\\\"lx\\\":35,\\\"ly\\\":111,\\\"mx\\\":35,\\\"my\\\":104},{\\\"lx\\\":33,\\\"ly\\\":115,\\\"mx\\\":35,\\\"my\\\":111},{\\\"lx\\\":33,\\\"ly\\\":118,\\\"mx\\\":33,\\\"my\\\":115},{\\\"lx\\\":39,\\\"ly\\\":118,\\\"mx\\\":33,\\\"my\\\":118},{\\\"lx\\\":67,\\\"ly\\\":102,\\\"mx\\\":39,\\\"my\\\":118},{\\\"lx\\\":84,\\\"ly\\\":91,\\\"mx\\\":67,\\\"my\\\":102},{\\\"lx\\\":103,\\\"ly\\\":79,\\\"mx\\\":84,\\\"my\\\":91},{\\\"lx\\\":109,\\\"ly\\\":76,\\\"mx\\\":103,\\\"my\\\":79},{\\\"lx\\\":110,\\\"ly\\\":76,\\\"mx\\\":109,\\\"my\\\":76},{\\\"lx\\\":110,\\\"ly\\\":77,\\\"mx\\\":110,\\\"my\\\":76},{\\\"lx\\\":110,\\\"ly\\\":78,\\\"mx\\\":110,\\\"my\\\":77},{\\\"lx\\\":110,\\\"ly\\\":79,\\\"mx\\\":110,\\\"my\\\":78},{\\\"lx\\\":110,\\\"ly\\\":80,\\\"mx\\\":110,\\\"my\\\":79},{\\\"lx\\\":111,\\\"ly\\\":80,\\\"mx\\\":110,\\\"my\\\":80},{\\\"lx\\\":112,\\\"ly\\\":81,\\\"mx\\\":111,\\\"my\\\":80},{\\\"lx\\\":114,\\\"ly\\\":81,\\\"mx\\\":112,\\\"my\\\":81},{\\\"lx\\\":115,\\\"ly\\\":82,\\\"mx\\\":114,\\\"my\\\":81},{\\\"lx\\\":116,\\\"ly\\\":82,\\\"mx\\\":115,\\\"my\\\":82},{\\\"lx\\\":116,\\\"ly\\\":83,\\\"mx\\\":116,\\\"my\\\":82},{\\\"lx\\\":116,\\\"ly\\\":84,\\\"mx\\\":116,\\\"my\\\":83},{\\\"lx\\\":116,\\\"ly\\\":85,\\\"mx\\\":116,\\\"my\\\":84},{\\\"lx\\\":117,\\\"ly\\\":86,\\\"mx\\\":116,\\\"my\\\":85},{\\\"lx\\\":117,\\\"ly\\\":88,\\\"mx\\\":117,\\\"my\\\":86},{\\\"lx\\\":117,\\\"ly\\\":89,\\\"mx\\\":117,\\\"my\\\":88},{\\\"lx\\\":118,\\\"ly\\\":90,\\\"mx\\\":117,\\\"my\\\":89},{\\\"lx\\\":107,\\\"ly\\\":96,\\\"mx\\\":107,\\\"my\\\":95},{\\\"lx\\\":111,\\\"ly\\\":95,\\\"mx\\\":107,\\\"my\\\":96},{\\\"lx\\\":127,\\\"ly\\\":95,\\\"mx\\\":111,\\\"my\\\":95},{\\\"lx\\\":167,\\\"ly\\\":95,\\\"mx\\\":127,\\\"my\\\":95},{\\\"lx\\\":197,\\\"ly\\\":94,\\\"mx\\\":167,\\\"my\\\":95},{\\\"lx\\\":220,\\\"ly\\\":90,\\\"mx\\\":197,\\\"my\\\":94},{\\\"lx\\\":236,\\\"ly\\\":88,\\\"mx\\\":220,\\\"my\\\":90},{\\\"lx\\\":241,\\\"ly\\\":87,\\\"mx\\\":236,\\\"my\\\":88},{\\\"lx\\\":237,\\\"ly\\\":88,\\\"mx\\\":241,\\\"my\\\":87},{\\\"lx\\\":225,\\\"ly\\\":97,\\\"mx\\\":237,\\\"my\\\":88},{\\\"lx\\\":221,\\\"ly\\\":101,\\\"mx\\\":225,\\\"my\\\":97},{\\\"lx\\\":215,\\\"ly\\\":105,\\\"mx\\\":221,\\\"my\\\":101},{\\\"lx\\\":214,\\\"ly\\\":106,\\\"mx\\\":215,\\\"my\\\":105},{\\\"lx\\\":214,\\\"ly\\\":107,\\\"mx\\\":214,\\\"my\\\":106},{\\\"lx\\\":213,\\\"ly\\\":109,\\\"mx\\\":214,\\\"my\\\":107},{\\\"lx\\\":212,\\\"ly\\\":111,\\\"mx\\\":213,\\\"my\\\":109},{\\\"lx\\\":211,\\\"ly\\\":112,\\\"mx\\\":212,\\\"my\\\":111},{\\\"lx\\\":212,\\\"ly\\\":111,\\\"mx\\\":211,\\\"my\\\":112},{\\\"lx\\\":215,\\\"ly\\\":109,\\\"mx\\\":212,\\\"my\\\":111},{\\\"lx\\\":217,\\\"ly\\\":107,\\\"mx\\\":215,\\\"my\\\":109},{\\\"lx\\\":218,\\\"ly\\\":106,\\\"mx\\\":217,\\\"my\\\":107},{\\\"lx\\\":219,\\\"ly\\\":105,\\\"mx\\\":218,\\\"my\\\":106},{\\\"lx\\\":217,\\\"ly\\\":105,\\\"mx\\\":219,\\\"my\\\":105},{\\\"lx\\\":209,\\\"ly\\\":105,\\\"mx\\\":217,\\\"my\\\":105},{\\\"lx\\\":203,\\\"ly\\\":107,\\\"mx\\\":209,\\\"my\\\":105},{\\\"lx\\\":199,\\\"ly\\\":109,\\\"mx\\\":203,\\\"my\\\":107},{\\\"lx\\\":198,\\\"ly\\\":110,\\\"mx\\\":199,\\\"my\\\":109},{\\\"lx\\\":201,\\\"ly\\\":110,\\\"mx\\\":198,\\\"my\\\":110},{\\\"lx\\\":217,\\\"ly\\\":104,\\\"mx\\\":201,\\\"my\\\":110},{\\\"lx\\\":226,\\\"ly\\\":102,\\\"mx\\\":217,\\\"my\\\":104},{\\\"lx\\\":233,\\\"ly\\\":100,\\\"mx\\\":226,\\\"my\\\":102},{\\\"lx\\\":238,\\\"ly\\\":100,\\\"mx\\\":233,\\\"my\\\":100},{\\\"lx\\\":239,\\\"ly\\\":100,\\\"mx\\\":238,\\\"my\\\":100},{\\\"lx\\\":240,\\\"ly\\\":100,\\\"mx\\\":239,\\\"my\\\":100},{\\\"lx\\\":241,\\\"ly\\\":104,\\\"mx\\\":240,\\\"my\\\":100},{\\\"lx\\\":243,\\\"ly\\\":104,\\\"mx\\\":241,\\\"my\\\":104},{\\\"lx\\\":250,\\\"ly\\\":106,\\\"mx\\\":243,\\\"my\\\":104},{\\\"lx\\\":255,\\\"ly\\\":107,\\\"mx\\\":250,\\\"my\\\":106},{\\\"lx\\\":260,\\\"ly\\\":107,\\\"mx\\\":255,\\\"my\\\":107},{\\\"lx\\\":262,\\\"ly\\\":107,\\\"mx\\\":260,\\\"my\\\":107},{\\\"lx\\\":263,\\\"ly\\\":108,\\\"mx\\\":262,\\\"my\\\":107}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 1.5030ms
+Redirected to http://192.168.1.102:3000/signatures/5344910f61706f675c040000
+Completed 302 Found in 8ms
+
+
+Started GET "/signatures/5344910f61706f675c040000" for 192.168.1.102 at 2014-04-08 17:15:11 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"5344910f61706f675c040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('5344910f61706f675c040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4930ms
+  Rendered signatures/show.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.2ms)
+
+
+Started GET "/signatures/new" for 192.168.1.102 at 2014-04-08 17:15:47 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.7ms)
+Completed 200 OK in 12ms (Views: 11.3ms)
+
+
+Started POST "/signatures" for 192.168.1.102 at 2014-04-08 17:16:24 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lv7XEKc2bg6wLsGx+06pCpX57t0LZxQXhavW8PzV3pY=", "signature"=>{"name"=>"jeff", "signature"=>"[{\"lx\":47,\"ly\":95,\"mx\":47,\"my\":94},{\"lx\":47,\"ly\":94,\"mx\":47,\"my\":95},{\"lx\":46,\"ly\":97,\"mx\":47,\"my\":94},{\"lx\":44,\"ly\":103,\"mx\":46,\"my\":97},{\"lx\":43,\"ly\":106,\"mx\":44,\"my\":103},{\"lx\":43,\"ly\":107,\"mx\":43,\"my\":106},{\"lx\":46,\"ly\":109,\"mx\":43,\"my\":107},{\"lx\":53,\"ly\":111,\"mx\":46,\"my\":109},{\"lx\":62,\"ly\":113,\"mx\":53,\"my\":111},{\"lx\":73,\"ly\":114,\"mx\":62,\"my\":113},{\"lx\":81,\"ly\":116,\"mx\":73,\"my\":114},{\"lx\":85,\"ly\":117,\"mx\":81,\"my\":116},{\"lx\":87,\"ly\":117,\"mx\":85,\"my\":117},{\"lx\":88,\"ly\":117,\"mx\":87,\"my\":117},{\"lx\":88,\"ly\":116,\"mx\":88,\"my\":117},{\"lx\":88,\"ly\":111,\"mx\":88,\"my\":116},{\"lx\":88,\"ly\":104,\"mx\":88,\"my\":111},{\"lx\":89,\"ly\":96,\"mx\":88,\"my\":104},{\"lx\":89,\"ly\":91,\"mx\":89,\"my\":96},{\"lx\":89,\"ly\":75,\"mx\":89,\"my\":91},{\"lx\":86,\"ly\":71,\"mx\":89,\"my\":75},{\"lx\":84,\"ly\":65,\"mx\":86,\"my\":71},{\"lx\":82,\"ly\":59,\"mx\":84,\"my\":65},{\"lx\":81,\"ly\":55,\"mx\":82,\"my\":59},{\"lx\":81,\"ly\":54,\"mx\":81,\"my\":55},{\"lx\":81,\"ly\":52,\"mx\":81,\"my\":54},{\"lx\":81,\"ly\":51,\"mx\":81,\"my\":52},{\"lx\":81,\"ly\":49,\"mx\":81,\"my\":51},{\"lx\":81,\"ly\":48,\"mx\":81,\"my\":49},{\"lx\":121,\"ly\":75,\"mx\":121,\"my\":74},{\"lx\":121,\"ly\":79,\"mx\":121,\"my\":75},{\"lx\":121,\"ly\":87,\"mx\":121,\"my\":79},{\"lx\":121,\"ly\":100,\"mx\":121,\"my\":87},{\"lx\":121,\"ly\":111,\"mx\":121,\"my\":100},{\"lx\":121,\"ly\":122,\"mx\":121,\"my\":111},{\"lx\":121,\"ly\":128,\"mx\":121,\"my\":122},{\"lx\":121,\"ly\":132,\"mx\":121,\"my\":128},{\"lx\":121,\"ly\":133,\"mx\":121,\"my\":132},{\"lx\":122,\"ly\":133,\"mx\":121,\"my\":133},{\"lx\":123,\"ly\":133,\"mx\":122,\"my\":133},{\"lx\":124,\"ly\":133,\"mx\":123,\"my\":133},{\"lx\":125,\"ly\":133,\"mx\":124,\"my\":133},{\"lx\":126,\"ly\":133,\"mx\":125,\"my\":133},{\"lx\":127,\"ly\":133,\"mx\":126,\"my\":133},{\"lx\":128,\"ly\":133,\"mx\":127,\"my\":133},{\"lx\":130,\"ly\":133,\"mx\":128,\"my\":133},{\"lx\":133,\"ly\":133,\"mx\":130,\"my\":133},{\"lx\":140,\"ly\":133,\"mx\":133,\"my\":133},{\"lx\":147,\"ly\":132,\"mx\":140,\"my\":133},{\"lx\":152,\"ly\":131,\"mx\":147,\"my\":132},{\"lx\":157,\"ly\":130,\"mx\":152,\"my\":131},{\"lx\":159,\"ly\":129,\"mx\":157,\"my\":130},{\"lx\":160,\"ly\":129,\"mx\":159,\"my\":129},{\"lx\":161,\"ly\":129,\"mx\":160,\"my\":129},{\"lx\":161,\"ly\":128,\"mx\":161,\"my\":129},{\"lx\":161,\"ly\":127,\"mx\":161,\"my\":128},{\"lx\":121,\"ly\":107,\"mx\":121,\"my\":106},{\"lx\":122,\"ly\":106,\"mx\":121,\"my\":107},{\"lx\":122,\"ly\":107,\"mx\":122,\"my\":106},{\"lx\":123,\"ly\":106,\"mx\":122,\"my\":107},{\"lx\":124,\"ly\":106,\"mx\":123,\"my\":106},{\"lx\":125,\"ly\":106,\"mx\":124,\"my\":106},{\"lx\":126,\"ly\":106,\"mx\":125,\"my\":106},{\"lx\":127,\"ly\":106,\"mx\":126,\"my\":106},{\"lx\":128,\"ly\":105,\"mx\":127,\"my\":106},{\"lx\":129,\"ly\":105,\"mx\":128,\"my\":105},{\"lx\":130,\"ly\":105,\"mx\":129,\"my\":105},{\"lx\":130,\"ly\":104,\"mx\":130,\"my\":105},{\"lx\":131,\"ly\":104,\"mx\":130,\"my\":104},{\"lx\":131,\"ly\":103,\"mx\":131,\"my\":104},{\"lx\":122,\"ly\":72,\"mx\":122,\"my\":71},{\"lx\":123,\"ly\":71,\"mx\":122,\"my\":72},{\"lx\":130,\"ly\":71,\"mx\":123,\"my\":71},{\"lx\":131,\"ly\":71,\"mx\":130,\"my\":71},{\"lx\":133,\"ly\":71,\"mx\":131,\"my\":71},{\"lx\":134,\"ly\":71,\"mx\":133,\"my\":71},{\"lx\":135,\"ly\":71,\"mx\":134,\"my\":71},{\"lx\":136,\"ly\":71,\"mx\":135,\"my\":71},{\"lx\":216,\"ly\":72,\"mx\":216,\"my\":71},{\"lx\":218,\"ly\":72,\"mx\":216,\"my\":72},{\"lx\":221,\"ly\":81,\"mx\":218,\"my\":72},{\"lx\":226,\"ly\":87,\"mx\":221,\"my\":81},{\"lx\":230,\"ly\":94,\"mx\":226,\"my\":87},{\"lx\":234,\"ly\":103,\"mx\":230,\"my\":94},{\"lx\":237,\"ly\":106,\"mx\":234,\"my\":103},{\"lx\":239,\"ly\":109,\"mx\":237,\"my\":106},{\"lx\":239,\"ly\":110,\"mx\":239,\"my\":109},{\"lx\":240,\"ly\":111,\"mx\":239,\"my\":110},{\"lx\":240,\"ly\":112,\"mx\":240,\"my\":111},{\"lx\":240,\"ly\":113,\"mx\":240,\"my\":112},{\"lx\":239,\"ly\":113,\"mx\":240,\"my\":113},{\"lx\":238,\"ly\":114,\"mx\":239,\"my\":113},{\"lx\":237,\"ly\":114,\"mx\":238,\"my\":114},{\"lx\":236,\"ly\":114,\"mx\":237,\"my\":114},{\"lx\":223,\"ly\":72,\"mx\":223,\"my\":71},{\"lx\":224,\"ly\":71,\"mx\":223,\"my\":72},{\"lx\":230,\"ly\":71,\"mx\":224,\"my\":71},{\"lx\":252,\"ly\":71,\"mx\":230,\"my\":71},{\"lx\":268,\"ly\":68,\"mx\":252,\"my\":71},{\"lx\":269,\"ly\":68,\"mx\":268,\"my\":68},{\"lx\":271,\"ly\":68,\"mx\":269,\"my\":68},{\"lx\":272,\"ly\":68,\"mx\":271,\"my\":68},{\"lx\":271,\"ly\":68,\"mx\":272,\"my\":68},{\"lx\":226,\"ly\":91,\"mx\":226,\"my\":90},{\"lx\":228,\"ly\":90,\"mx\":226,\"my\":91},{\"lx\":231,\"ly\":90,\"mx\":228,\"my\":90},{\"lx\":234,\"ly\":90,\"mx\":231,\"my\":90},{\"lx\":238,\"ly\":90,\"mx\":234,\"my\":90},{\"lx\":240,\"ly\":90,\"mx\":238,\"my\":90},{\"lx\":241,\"ly\":90,\"mx\":240,\"my\":90},{\"lx\":243,\"ly\":90,\"mx\":241,\"my\":90},{\"lx\":247,\"ly\":90,\"mx\":243,\"my\":90},{\"lx\":249,\"ly\":90,\"mx\":247,\"my\":90},{\"lx\":250,\"ly\":90,\"mx\":249,\"my\":90},{\"lx\":251,\"ly\":90,\"mx\":250,\"my\":90},{\"lx\":248,\"ly\":90,\"mx\":251,\"my\":90},{\"lx\":173,\"ly\":76,\"mx\":173,\"my\":75},{\"lx\":173,\"ly\":77,\"mx\":173,\"my\":76},{\"lx\":173,\"ly\":78,\"mx\":173,\"my\":77},{\"lx\":173,\"ly\":79,\"mx\":173,\"my\":78},{\"lx\":173,\"ly\":84,\"mx\":173,\"my\":79},{\"lx\":173,\"ly\":89,\"mx\":173,\"my\":84},{\"lx\":173,\"ly\":94,\"mx\":173,\"my\":89},{\"lx\":176,\"ly\":102,\"mx\":173,\"my\":94},{\"lx\":177,\"ly\":105,\"mx\":176,\"my\":102},{\"lx\":179,\"ly\":108,\"mx\":177,\"my\":105},{\"lx\":180,\"ly\":110,\"mx\":179,\"my\":108},{\"lx\":180,\"ly\":111,\"mx\":180,\"my\":110},{\"lx\":180,\"ly\":112,\"mx\":180,\"my\":111},{\"lx\":181,\"ly\":112,\"mx\":180,\"my\":112},{\"lx\":181,\"ly\":113,\"mx\":181,\"my\":112},{\"lx\":182,\"ly\":114,\"mx\":181,\"my\":113},{\"lx\":183,\"ly\":115,\"mx\":182,\"my\":114},{\"lx\":184,\"ly\":115,\"mx\":183,\"my\":115},{\"lx\":186,\"ly\":115,\"mx\":184,\"my\":115},{\"lx\":188,\"ly\":114,\"mx\":186,\"my\":115},{\"lx\":191,\"ly\":113,\"mx\":188,\"my\":114},{\"lx\":196,\"ly\":112,\"mx\":191,\"my\":113},{\"lx\":198,\"ly\":112,\"mx\":196,\"my\":112},{\"lx\":199,\"ly\":112,\"mx\":198,\"my\":112},{\"lx\":200,\"ly\":112,\"mx\":199,\"my\":112},{\"lx\":174,\"ly\":76,\"mx\":174,\"my\":75},{\"lx\":175,\"ly\":75,\"mx\":174,\"my\":76},{\"lx\":178,\"ly\":75,\"mx\":175,\"my\":75},{\"lx\":184,\"ly\":75,\"mx\":178,\"my\":75},{\"lx\":190,\"ly\":76,\"mx\":184,\"my\":75},{\"lx\":194,\"ly\":76,\"mx\":190,\"my\":76},{\"lx\":198,\"ly\":77,\"mx\":194,\"my\":76},{\"lx\":199,\"ly\":77,\"mx\":198,\"my\":77},{\"lx\":200,\"ly\":78,\"mx\":199,\"my\":77},{\"lx\":199,\"ly\":78,\"mx\":200,\"my\":78},{\"lx\":197,\"ly\":79,\"mx\":199,\"my\":78},{\"lx\":193,\"ly\":82,\"mx\":197,\"my\":79},{\"lx\":186,\"ly\":114,\"mx\":186,\"my\":113},{\"lx\":186,\"ly\":115,\"mx\":186,\"my\":114},{\"lx\":187,\"ly\":115,\"mx\":186,\"my\":115},{\"lx\":187,\"ly\":116,\"mx\":187,\"my\":115},{\"lx\":188,\"ly\":117,\"mx\":187,\"my\":116},{\"lx\":188,\"ly\":118,\"mx\":188,\"my\":117},{\"lx\":190,\"ly\":120,\"mx\":188,\"my\":118},{\"lx\":190,\"ly\":122,\"mx\":190,\"my\":120},{\"lx\":190,\"ly\":123,\"mx\":190,\"my\":122},{\"lx\":190,\"ly\":124,\"mx\":190,\"my\":123},{\"lx\":191,\"ly\":124,\"mx\":190,\"my\":124},{\"lx\":191,\"ly\":125,\"mx\":191,\"my\":124},{\"lx\":191,\"ly\":127,\"mx\":191,\"my\":125},{\"lx\":192,\"ly\":128,\"mx\":191,\"my\":127},{\"lx\":192,\"ly\":130,\"mx\":192,\"my\":128},{\"lx\":192,\"ly\":131,\"mx\":192,\"my\":130},{\"lx\":192,\"ly\":132,\"mx\":192,\"my\":131},{\"lx\":193,\"ly\":132,\"mx\":192,\"my\":132}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4600ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5344915861706f675c050000'), "name"=>nil, "signature"=>"{\"name\"=>\"jeff\", \"signature\"=>\"[{\\\"lx\\\":47,\\\"ly\\\":95,\\\"mx\\\":47,\\\"my\\\":94},{\\\"lx\\\":47,\\\"ly\\\":94,\\\"mx\\\":47,\\\"my\\\":95},{\\\"lx\\\":46,\\\"ly\\\":97,\\\"mx\\\":47,\\\"my\\\":94},{\\\"lx\\\":44,\\\"ly\\\":103,\\\"mx\\\":46,\\\"my\\\":97},{\\\"lx\\\":43,\\\"ly\\\":106,\\\"mx\\\":44,\\\"my\\\":103},{\\\"lx\\\":43,\\\"ly\\\":107,\\\"mx\\\":43,\\\"my\\\":106},{\\\"lx\\\":46,\\\"ly\\\":109,\\\"mx\\\":43,\\\"my\\\":107},{\\\"lx\\\":53,\\\"ly\\\":111,\\\"mx\\\":46,\\\"my\\\":109},{\\\"lx\\\":62,\\\"ly\\\":113,\\\"mx\\\":53,\\\"my\\\":111},{\\\"lx\\\":73,\\\"ly\\\":114,\\\"mx\\\":62,\\\"my\\\":113},{\\\"lx\\\":81,\\\"ly\\\":116,\\\"mx\\\":73,\\\"my\\\":114},{\\\"lx\\\":85,\\\"ly\\\":117,\\\"mx\\\":81,\\\"my\\\":116},{\\\"lx\\\":87,\\\"ly\\\":117,\\\"mx\\\":85,\\\"my\\\":117},{\\\"lx\\\":88,\\\"ly\\\":117,\\\"mx\\\":87,\\\"my\\\":117},{\\\"lx\\\":88,\\\"ly\\\":116,\\\"mx\\\":88,\\\"my\\\":117},{\\\"lx\\\":88,\\\"ly\\\":111,\\\"mx\\\":88,\\\"my\\\":116},{\\\"lx\\\":88,\\\"ly\\\":104,\\\"mx\\\":88,\\\"my\\\":111},{\\\"lx\\\":89,\\\"ly\\\":96,\\\"mx\\\":88,\\\"my\\\":104},{\\\"lx\\\":89,\\\"ly\\\":91,\\\"mx\\\":89,\\\"my\\\":96},{\\\"lx\\\":89,\\\"ly\\\":75,\\\"mx\\\":89,\\\"my\\\":91},{\\\"lx\\\":86,\\\"ly\\\":71,\\\"mx\\\":89,\\\"my\\\":75},{\\\"lx\\\":84,\\\"ly\\\":65,\\\"mx\\\":86,\\\"my\\\":71},{\\\"lx\\\":82,\\\"ly\\\":59,\\\"mx\\\":84,\\\"my\\\":65},{\\\"lx\\\":81,\\\"ly\\\":55,\\\"mx\\\":82,\\\"my\\\":59},{\\\"lx\\\":81,\\\"ly\\\":54,\\\"mx\\\":81,\\\"my\\\":55},{\\\"lx\\\":81,\\\"ly\\\":52,\\\"mx\\\":81,\\\"my\\\":54},{\\\"lx\\\":81,\\\"ly\\\":51,\\\"mx\\\":81,\\\"my\\\":52},{\\\"lx\\\":81,\\\"ly\\\":49,\\\"mx\\\":81,\\\"my\\\":51},{\\\"lx\\\":81,\\\"ly\\\":48,\\\"mx\\\":81,\\\"my\\\":49},{\\\"lx\\\":121,\\\"ly\\\":75,\\\"mx\\\":121,\\\"my\\\":74},{\\\"lx\\\":121,\\\"ly\\\":79,\\\"mx\\\":121,\\\"my\\\":75},{\\\"lx\\\":121,\\\"ly\\\":87,\\\"mx\\\":121,\\\"my\\\":79},{\\\"lx\\\":121,\\\"ly\\\":100,\\\"mx\\\":121,\\\"my\\\":87},{\\\"lx\\\":121,\\\"ly\\\":111,\\\"mx\\\":121,\\\"my\\\":100},{\\\"lx\\\":121,\\\"ly\\\":122,\\\"mx\\\":121,\\\"my\\\":111},{\\\"lx\\\":121,\\\"ly\\\":128,\\\"mx\\\":121,\\\"my\\\":122},{\\\"lx\\\":121,\\\"ly\\\":132,\\\"mx\\\":121,\\\"my\\\":128},{\\\"lx\\\":121,\\\"ly\\\":133,\\\"mx\\\":121,\\\"my\\\":132},{\\\"lx\\\":122,\\\"ly\\\":133,\\\"mx\\\":121,\\\"my\\\":133},{\\\"lx\\\":123,\\\"ly\\\":133,\\\"mx\\\":122,\\\"my\\\":133},{\\\"lx\\\":124,\\\"ly\\\":133,\\\"mx\\\":123,\\\"my\\\":133},{\\\"lx\\\":125,\\\"ly\\\":133,\\\"mx\\\":124,\\\"my\\\":133},{\\\"lx\\\":126,\\\"ly\\\":133,\\\"mx\\\":125,\\\"my\\\":133},{\\\"lx\\\":127,\\\"ly\\\":133,\\\"mx\\\":126,\\\"my\\\":133},{\\\"lx\\\":128,\\\"ly\\\":133,\\\"mx\\\":127,\\\"my\\\":133},{\\\"lx\\\":130,\\\"ly\\\":133,\\\"mx\\\":128,\\\"my\\\":133},{\\\"lx\\\":133,\\\"ly\\\":133,\\\"mx\\\":130,\\\"my\\\":133},{\\\"lx\\\":140,\\\"ly\\\":133,\\\"mx\\\":133,\\\"my\\\":133},{\\\"lx\\\":147,\\\"ly\\\":132,\\\"mx\\\":140,\\\"my\\\":133},{\\\"lx\\\":152,\\\"ly\\\":131,\\\"mx\\\":147,\\\"my\\\":132},{\\\"lx\\\":157,\\\"ly\\\":130,\\\"mx\\\":152,\\\"my\\\":131},{\\\"lx\\\":159,\\\"ly\\\":129,\\\"mx\\\":157,\\\"my\\\":130},{\\\"lx\\\":160,\\\"ly\\\":129,\\\"mx\\\":159,\\\"my\\\":129},{\\\"lx\\\":161,\\\"ly\\\":129,\\\"mx\\\":160,\\\"my\\\":129},{\\\"lx\\\":161,\\\"ly\\\":128,\\\"mx\\\":161,\\\"my\\\":129},{\\\"lx\\\":161,\\\"ly\\\":127,\\\"mx\\\":161,\\\"my\\\":128},{\\\"lx\\\":121,\\\"ly\\\":107,\\\"mx\\\":121,\\\"my\\\":106},{\\\"lx\\\":122,\\\"ly\\\":106,\\\"mx\\\":121,\\\"my\\\":107},{\\\"lx\\\":122,\\\"ly\\\":107,\\\"mx\\\":122,\\\"my\\\":106},{\\\"lx\\\":123,\\\"ly\\\":106,\\\"mx\\\":122,\\\"my\\\":107},{\\\"lx\\\":124,\\\"ly\\\":106,\\\"mx\\\":123,\\\"my\\\":106},{\\\"lx\\\":125,\\\"ly\\\":106,\\\"mx\\\":124,\\\"my\\\":106},{\\\"lx\\\":126,\\\"ly\\\":106,\\\"mx\\\":125,\\\"my\\\":106},{\\\"lx\\\":127,\\\"ly\\\":106,\\\"mx\\\":126,\\\"my\\\":106},{\\\"lx\\\":128,\\\"ly\\\":105,\\\"mx\\\":127,\\\"my\\\":106},{\\\"lx\\\":129,\\\"ly\\\":105,\\\"mx\\\":128,\\\"my\\\":105},{\\\"lx\\\":130,\\\"ly\\\":105,\\\"mx\\\":129,\\\"my\\\":105},{\\\"lx\\\":130,\\\"ly\\\":104,\\\"mx\\\":130,\\\"my\\\":105},{\\\"lx\\\":131,\\\"ly\\\":104,\\\"mx\\\":130,\\\"my\\\":104},{\\\"lx\\\":131,\\\"ly\\\":103,\\\"mx\\\":131,\\\"my\\\":104},{\\\"lx\\\":122,\\\"ly\\\":72,\\\"mx\\\":122,\\\"my\\\":71},{\\\"lx\\\":123,\\\"ly\\\":71,\\\"mx\\\":122,\\\"my\\\":72},{\\\"lx\\\":130,\\\"ly\\\":71,\\\"mx\\\":123,\\\"my\\\":71},{\\\"lx\\\":131,\\\"ly\\\":71,\\\"mx\\\":130,\\\"my\\\":71},{\\\"lx\\\":133,\\\"ly\\\":71,\\\"mx\\\":131,\\\"my\\\":71},{\\\"lx\\\":134,\\\"ly\\\":71,\\\"mx\\\":133,\\\"my\\\":71},{\\\"lx\\\":135,\\\"ly\\\":71,\\\"mx\\\":134,\\\"my\\\":71},{\\\"lx\\\":136,\\\"ly\\\":71,\\\"mx\\\":135,\\\"my\\\":71},{\\\"lx\\\":216,\\\"ly\\\":72,\\\"mx\\\":216,\\\"my\\\":71},{\\\"lx\\\":218,\\\"ly\\\":72,\\\"mx\\\":216,\\\"my\\\":72},{\\\"lx\\\":221,\\\"ly\\\":81,\\\"mx\\\":218,\\\"my\\\":72},{\\\"lx\\\":226,\\\"ly\\\":87,\\\"mx\\\":221,\\\"my\\\":81},{\\\"lx\\\":230,\\\"ly\\\":94,\\\"mx\\\":226,\\\"my\\\":87},{\\\"lx\\\":234,\\\"ly\\\":103,\\\"mx\\\":230,\\\"my\\\":94},{\\\"lx\\\":237,\\\"ly\\\":106,\\\"mx\\\":234,\\\"my\\\":103},{\\\"lx\\\":239,\\\"ly\\\":109,\\\"mx\\\":237,\\\"my\\\":106},{\\\"lx\\\":239,\\\"ly\\\":110,\\\"mx\\\":239,\\\"my\\\":109},{\\\"lx\\\":240,\\\"ly\\\":111,\\\"mx\\\":239,\\\"my\\\":110},{\\\"lx\\\":240,\\\"ly\\\":112,\\\"mx\\\":240,\\\"my\\\":111},{\\\"lx\\\":240,\\\"ly\\\":113,\\\"mx\\\":240,\\\"my\\\":112},{\\\"lx\\\":239,\\\"ly\\\":113,\\\"mx\\\":240,\\\"my\\\":113},{\\\"lx\\\":238,\\\"ly\\\":114,\\\"mx\\\":239,\\\"my\\\":113},{\\\"lx\\\":237,\\\"ly\\\":114,\\\"mx\\\":238,\\\"my\\\":114},{\\\"lx\\\":236,\\\"ly\\\":114,\\\"mx\\\":237,\\\"my\\\":114},{\\\"lx\\\":223,\\\"ly\\\":72,\\\"mx\\\":223,\\\"my\\\":71},{\\\"lx\\\":224,\\\"ly\\\":71,\\\"mx\\\":223,\\\"my\\\":72},{\\\"lx\\\":230,\\\"ly\\\":71,\\\"mx\\\":224,\\\"my\\\":71},{\\\"lx\\\":252,\\\"ly\\\":71,\\\"mx\\\":230,\\\"my\\\":71},{\\\"lx\\\":268,\\\"ly\\\":68,\\\"mx\\\":252,\\\"my\\\":71},{\\\"lx\\\":269,\\\"ly\\\":68,\\\"mx\\\":268,\\\"my\\\":68},{\\\"lx\\\":271,\\\"ly\\\":68,\\\"mx\\\":269,\\\"my\\\":68},{\\\"lx\\\":272,\\\"ly\\\":68,\\\"mx\\\":271,\\\"my\\\":68},{\\\"lx\\\":271,\\\"ly\\\":68,\\\"mx\\\":272,\\\"my\\\":68},{\\\"lx\\\":226,\\\"ly\\\":91,\\\"mx\\\":226,\\\"my\\\":90},{\\\"lx\\\":228,\\\"ly\\\":90,\\\"mx\\\":226,\\\"my\\\":91},{\\\"lx\\\":231,\\\"ly\\\":90,\\\"mx\\\":228,\\\"my\\\":90},{\\\"lx\\\":234,\\\"ly\\\":90,\\\"mx\\\":231,\\\"my\\\":90},{\\\"lx\\\":238,\\\"ly\\\":90,\\\"mx\\\":234,\\\"my\\\":90},{\\\"lx\\\":240,\\\"ly\\\":90,\\\"mx\\\":238,\\\"my\\\":90},{\\\"lx\\\":241,\\\"ly\\\":90,\\\"mx\\\":240,\\\"my\\\":90},{\\\"lx\\\":243,\\\"ly\\\":90,\\\"mx\\\":241,\\\"my\\\":90},{\\\"lx\\\":247,\\\"ly\\\":90,\\\"mx\\\":243,\\\"my\\\":90},{\\\"lx\\\":249,\\\"ly\\\":90,\\\"mx\\\":247,\\\"my\\\":90},{\\\"lx\\\":250,\\\"ly\\\":90,\\\"mx\\\":249,\\\"my\\\":90},{\\\"lx\\\":251,\\\"ly\\\":90,\\\"mx\\\":250,\\\"my\\\":90},{\\\"lx\\\":248,\\\"ly\\\":90,\\\"mx\\\":251,\\\"my\\\":90},{\\\"lx\\\":173,\\\"ly\\\":76,\\\"mx\\\":173,\\\"my\\\":75},{\\\"lx\\\":173,\\\"ly\\\":77,\\\"mx\\\":173,\\\"my\\\":76},{\\\"lx\\\":173,\\\"ly\\\":78,\\\"mx\\\":173,\\\"my\\\":77},{\\\"lx\\\":173,\\\"ly\\\":79,\\\"mx\\\":173,\\\"my\\\":78},{\\\"lx\\\":173,\\\"ly\\\":84,\\\"mx\\\":173,\\\"my\\\":79},{\\\"lx\\\":173,\\\"ly\\\":89,\\\"mx\\\":173,\\\"my\\\":84},{\\\"lx\\\":173,\\\"ly\\\":94,\\\"mx\\\":173,\\\"my\\\":89},{\\\"lx\\\":176,\\\"ly\\\":102,\\\"mx\\\":173,\\\"my\\\":94},{\\\"lx\\\":177,\\\"ly\\\":105,\\\"mx\\\":176,\\\"my\\\":102},{\\\"lx\\\":179,\\\"ly\\\":108,\\\"mx\\\":177,\\\"my\\\":105},{\\\"lx\\\":180,\\\"ly\\\":110,\\\"mx\\\":179,\\\"my\\\":108},{\\\"lx\\\":180,\\\"ly\\\":111,\\\"mx\\\":180,\\\"my\\\":110},{\\\"lx\\\":180,\\\"ly\\\":112,\\\"mx\\\":180,\\\"my\\\":111},{\\\"lx\\\":181,\\\"ly\\\":112,\\\"mx\\\":180,\\\"my\\\":112},{\\\"lx\\\":181,\\\"ly\\\":113,\\\"mx\\\":181,\\\"my\\\":112},{\\\"lx\\\":182,\\\"ly\\\":114,\\\"mx\\\":181,\\\"my\\\":113},{\\\"lx\\\":183,\\\"ly\\\":115,\\\"mx\\\":182,\\\"my\\\":114},{\\\"lx\\\":184,\\\"ly\\\":115,\\\"mx\\\":183,\\\"my\\\":115},{\\\"lx\\\":186,\\\"ly\\\":115,\\\"mx\\\":184,\\\"my\\\":115},{\\\"lx\\\":188,\\\"ly\\\":114,\\\"mx\\\":186,\\\"my\\\":115},{\\\"lx\\\":191,\\\"ly\\\":113,\\\"mx\\\":188,\\\"my\\\":114},{\\\"lx\\\":196,\\\"ly\\\":112,\\\"mx\\\":191,\\\"my\\\":113},{\\\"lx\\\":198,\\\"ly\\\":112,\\\"mx\\\":196,\\\"my\\\":112},{\\\"lx\\\":199,\\\"ly\\\":112,\\\"mx\\\":198,\\\"my\\\":112},{\\\"lx\\\":200,\\\"ly\\\":112,\\\"mx\\\":199,\\\"my\\\":112},{\\\"lx\\\":174,\\\"ly\\\":76,\\\"mx\\\":174,\\\"my\\\":75},{\\\"lx\\\":175,\\\"ly\\\":75,\\\"mx\\\":174,\\\"my\\\":76},{\\\"lx\\\":178,\\\"ly\\\":75,\\\"mx\\\":175,\\\"my\\\":75},{\\\"lx\\\":184,\\\"ly\\\":75,\\\"mx\\\":178,\\\"my\\\":75},{\\\"lx\\\":190,\\\"ly\\\":76,\\\"mx\\\":184,\\\"my\\\":75},{\\\"lx\\\":194,\\\"ly\\\":76,\\\"mx\\\":190,\\\"my\\\":76},{\\\"lx\\\":198,\\\"ly\\\":77,\\\"mx\\\":194,\\\"my\\\":76},{\\\"lx\\\":199,\\\"ly\\\":77,\\\"mx\\\":198,\\\"my\\\":77},{\\\"lx\\\":200,\\\"ly\\\":78,\\\"mx\\\":199,\\\"my\\\":77},{\\\"lx\\\":199,\\\"ly\\\":78,\\\"mx\\\":200,\\\"my\\\":78},{\\\"lx\\\":197,\\\"ly\\\":79,\\\"mx\\\":199,\\\"my\\\":78},{\\\"lx\\\":193,\\\"ly\\\":82,\\\"mx\\\":197,\\\"my\\\":79},{\\\"lx\\\":186,\\\"ly\\\":114,\\\"mx\\\":186,\\\"my\\\":113},{\\\"lx\\\":186,\\\"ly\\\":115,\\\"mx\\\":186,\\\"my\\\":114},{\\\"lx\\\":187,\\\"ly\\\":115,\\\"mx\\\":186,\\\"my\\\":115},{\\\"lx\\\":187,\\\"ly\\\":116,\\\"mx\\\":187,\\\"my\\\":115},{\\\"lx\\\":188,\\\"ly\\\":117,\\\"mx\\\":187,\\\"my\\\":116},{\\\"lx\\\":188,\\\"ly\\\":118,\\\"mx\\\":188,\\\"my\\\":117},{\\\"lx\\\":190,\\\"ly\\\":120,\\\"mx\\\":188,\\\"my\\\":118},{\\\"lx\\\":190,\\\"ly\\\":122,\\\"mx\\\":190,\\\"my\\\":120},{\\\"lx\\\":190,\\\"ly\\\":123,\\\"mx\\\":190,\\\"my\\\":122},{\\\"lx\\\":190,\\\"ly\\\":124,\\\"mx\\\":190,\\\"my\\\":123},{\\\"lx\\\":191,\\\"ly\\\":124,\\\"mx\\\":190,\\\"my\\\":124},{\\\"lx\\\":191,\\\"ly\\\":125,\\\"mx\\\":191,\\\"my\\\":124},{\\\"lx\\\":191,\\\"ly\\\":127,\\\"mx\\\":191,\\\"my\\\":125},{\\\"lx\\\":192,\\\"ly\\\":128,\\\"mx\\\":191,\\\"my\\\":127},{\\\"lx\\\":192,\\\"ly\\\":130,\\\"mx\\\":192,\\\"my\\\":128},{\\\"lx\\\":192,\\\"ly\\\":131,\\\"mx\\\":192,\\\"my\\\":130},{\\\"lx\\\":192,\\\"ly\\\":132,\\\"mx\\\":192,\\\"my\\\":131},{\\\"lx\\\":193,\\\"ly\\\":132,\\\"mx\\\":192,\\\"my\\\":132}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.9730ms
+Redirected to http://192.168.1.102:3000/signatures/5344915861706f675c050000
+Completed 302 Found in 8ms
+
+
+Started GET "/signatures/5344915861706f675c050000" for 192.168.1.102 at 2014-04-08 17:16:24 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"5344915861706f675c050000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('5344915861706f675c050000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4870ms
+  Rendered signatures/show.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-19 18:04:18 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 32ms (Views: 15.1ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:04:28 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (192.1ms)
+Completed 200 OK in 490ms (Views: 368.8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/pen.cur"):
+  actionpack (4.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.3) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (4.0.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.3) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.3) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.3) lib/rails/engine.rb:511:in `call'
+  railties (4.0.3) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.8.1) lib/puma/server.rb:490:in `handle_request'
+  puma (2.8.1) lib/puma/server.rb:361:in `process_client'
+  puma (2.8.1) lib/puma/server.rb:254:in `block in run'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `call'
+  puma (2.8.1) lib/puma/thread_pool.rb:92:in `block in spawn_thread'
+
+
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:04:34 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":16,\"ly\":165,\"lt\":1397955871588,\"mx\":16,\"my\":164,\"mt\":1397955871588},{\"lx\":18,\"ly\":164,\"lt\":1397955871764,\"mx\":16,\"my\":165,\"mt\":1397955871588},{\"lx\":19,\"ly\":162,\"lt\":1397955871781,\"mx\":18,\"my\":164,\"mt\":1397955871764},{\"lx\":18,\"ly\":162,\"lt\":1397955871854,\"mx\":19,\"my\":162,\"mt\":1397955871781},{\"lx\":14,\"ly\":162,\"lt\":1397955871870,\"mx\":18,\"my\":162,\"mt\":1397955871854},{\"lx\":10,\"ly\":162,\"lt\":1397955871887,\"mx\":14,\"my\":162,\"mt\":1397955871870},{\"lx\":6,\"ly\":164,\"lt\":1397955871904,\"mx\":10,\"my\":162,\"mt\":1397955871887},{\"lx\":6,\"ly\":166,\"lt\":1397955871931,\"mx\":6,\"my\":164,\"mt\":1397955871904},{\"lx\":6,\"ly\":169,\"lt\":1397955871938,\"mx\":6,\"my\":166,\"mt\":1397955871931},{\"lx\":6,\"ly\":172,\"lt\":1397955871963,\"mx\":6,\"my\":169,\"mt\":1397955871938},{\"lx\":7,\"ly\":175,\"lt\":1397955871971,\"mx\":6,\"my\":172,\"mt\":1397955871963},{\"lx\":13,\"ly\":177,\"lt\":1397955871996,\"mx\":7,\"my\":175,\"mt\":1397955871971},{\"lx\":21,\"ly\":178,\"lt\":1397955872005,\"mx\":13,\"my\":177,\"mt\":1397955871996},{\"lx\":29,\"ly\":173,\"lt\":1397955872029,\"mx\":21,\"my\":178,\"mt\":1397955872005},{\"lx\":36,\"ly\":162,\"lt\":1397955872058,\"mx\":29,\"my\":173,\"mt\":1397955872029},{\"lx\":41,\"ly\":154,\"lt\":1397955872061,\"mx\":36,\"my\":162,\"mt\":1397955872058},{\"lx\":43,\"ly\":148,\"lt\":1397955872090,\"mx\":41,\"my\":154,\"mt\":1397955872061},{\"lx\":43,\"ly\":146,\"lt\":1397955872115,\"mx\":43,\"my\":148,\"mt\":1397955872090},{\"lx\":43,\"ly\":147,\"lt\":1397955872141,\"mx\":43,\"my\":146,\"mt\":1397955872115},{\"lx\":42,\"ly\":148,\"lt\":1397955872161,\"mx\":43,\"my\":147,\"mt\":1397955872141},{\"lx\":42,\"ly\":149,\"lt\":1397955872180,\"mx\":42,\"my\":148,\"mt\":1397955872161},{\"lx\":42,\"ly\":150,\"lt\":1397955872200,\"mx\":42,\"my\":149,\"mt\":1397955872180},{\"lx\":51,\"ly\":150,\"lt\":1397955872209,\"mx\":42,\"my\":150,\"mt\":1397955872200},{\"lx\":57,\"ly\":150,\"lt\":1397955872226,\"mx\":51,\"my\":150,\"mt\":1397955872209},{\"lx\":67,\"ly\":150,\"lt\":1397955872243,\"mx\":57,\"my\":150,\"mt\":1397955872226},{\"lx\":72,\"ly\":147,\"lt\":1397955872263,\"mx\":67,\"my\":150,\"mt\":1397955872243},{\"lx\":75,\"ly\":146,\"lt\":1397955872283,\"mx\":72,\"my\":147,\"mt\":1397955872263},{\"lx\":76,\"ly\":143,\"lt\":1397955872302,\"mx\":75,\"my\":146,\"mt\":1397955872283},{\"lx\":76,\"ly\":142,\"lt\":1397955872321,\"mx\":76,\"my\":143,\"mt\":1397955872302},{\"lx\":76,\"ly\":141,\"lt\":1397955872333,\"mx\":76,\"my\":142,\"mt\":1397955872321},{\"lx\":79,\"ly\":141,\"lt\":1397955872389,\"mx\":76,\"my\":141,\"mt\":1397955872333},{\"lx\":91,\"ly\":138,\"lt\":1397955872412,\"mx\":79,\"my\":141,\"mt\":1397955872389},{\"lx\":118,\"ly\":130,\"lt\":1397955872433,\"mx\":91,\"my\":138,\"mt\":1397955872412},{\"lx\":148,\"ly\":118,\"lt\":1397955872440,\"mx\":118,\"my\":130,\"mt\":1397955872433},{\"lx\":188,\"ly\":98,\"lt\":1397955872457,\"mx\":148,\"my\":118,\"mt\":1397955872440},{\"lx\":209,\"ly\":87,\"lt\":1397955872474,\"mx\":188,\"my\":98,\"mt\":1397955872457},{\"lx\":223,\"ly\":79,\"lt\":1397955872497,\"mx\":209,\"my\":87,\"mt\":1397955872474},{\"lx\":231,\"ly\":74,\"lt\":1397955872518,\"mx\":223,\"my\":79,\"mt\":1397955872497},{\"lx\":234,\"ly\":73,\"lt\":1397955872526,\"mx\":231,\"my\":74,\"mt\":1397955872518},{\"lx\":235,\"ly\":73,\"lt\":1397955872546,\"mx\":234,\"my\":73,\"mt\":1397955872526},{\"lx\":236,\"ly\":72,\"lt\":1397955872568,\"mx\":235,\"my\":73,\"mt\":1397955872546},{\"lx\":237,\"ly\":72,\"lt\":1397955872577,\"mx\":236,\"my\":72,\"mt\":1397955872568},{\"lx\":239,\"ly\":72,\"lt\":1397955872596,\"mx\":237,\"my\":72,\"mt\":1397955872577},{\"lx\":244,\"ly\":72,\"lt\":1397955872618,\"mx\":239,\"my\":72,\"mt\":1397955872596},{\"lx\":248,\"ly\":72,\"lt\":1397955872629,\"mx\":244,\"my\":72,\"mt\":1397955872618},{\"lx\":252,\"ly\":73,\"lt\":1397955872647,\"mx\":248,\"my\":72,\"mt\":1397955872629},{\"lx\":253,\"ly\":74,\"lt\":1397955872669,\"mx\":252,\"my\":73,\"mt\":1397955872647},{\"lx\":254,\"ly\":74,\"lt\":1397955872691,\"mx\":253,\"my\":74,\"mt\":1397955872669},{\"lx\":255,\"ly\":74,\"lt\":1397955872696,\"mx\":254,\"my\":74,\"mt\":1397955872691},{\"lx\":255,\"ly\":75,\"lt\":1397955872760,\"mx\":255,\"my\":74,\"mt\":1397955872696}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6990ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('53531d2261706f1057000000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":16,\\\"ly\\\":165,\\\"lt\\\":1397955871588,\\\"mx\\\":16,\\\"my\\\":164,\\\"mt\\\":1397955871588},{\\\"lx\\\":18,\\\"ly\\\":164,\\\"lt\\\":1397955871764,\\\"mx\\\":16,\\\"my\\\":165,\\\"mt\\\":1397955871588},{\\\"lx\\\":19,\\\"ly\\\":162,\\\"lt\\\":1397955871781,\\\"mx\\\":18,\\\"my\\\":164,\\\"mt\\\":1397955871764},{\\\"lx\\\":18,\\\"ly\\\":162,\\\"lt\\\":1397955871854,\\\"mx\\\":19,\\\"my\\\":162,\\\"mt\\\":1397955871781},{\\\"lx\\\":14,\\\"ly\\\":162,\\\"lt\\\":1397955871870,\\\"mx\\\":18,\\\"my\\\":162,\\\"mt\\\":1397955871854},{\\\"lx\\\":10,\\\"ly\\\":162,\\\"lt\\\":1397955871887,\\\"mx\\\":14,\\\"my\\\":162,\\\"mt\\\":1397955871870},{\\\"lx\\\":6,\\\"ly\\\":164,\\\"lt\\\":1397955871904,\\\"mx\\\":10,\\\"my\\\":162,\\\"mt\\\":1397955871887},{\\\"lx\\\":6,\\\"ly\\\":166,\\\"lt\\\":1397955871931,\\\"mx\\\":6,\\\"my\\\":164,\\\"mt\\\":1397955871904},{\\\"lx\\\":6,\\\"ly\\\":169,\\\"lt\\\":1397955871938,\\\"mx\\\":6,\\\"my\\\":166,\\\"mt\\\":1397955871931},{\\\"lx\\\":6,\\\"ly\\\":172,\\\"lt\\\":1397955871963,\\\"mx\\\":6,\\\"my\\\":169,\\\"mt\\\":1397955871938},{\\\"lx\\\":7,\\\"ly\\\":175,\\\"lt\\\":1397955871971,\\\"mx\\\":6,\\\"my\\\":172,\\\"mt\\\":1397955871963},{\\\"lx\\\":13,\\\"ly\\\":177,\\\"lt\\\":1397955871996,\\\"mx\\\":7,\\\"my\\\":175,\\\"mt\\\":1397955871971},{\\\"lx\\\":21,\\\"ly\\\":178,\\\"lt\\\":1397955872005,\\\"mx\\\":13,\\\"my\\\":177,\\\"mt\\\":1397955871996},{\\\"lx\\\":29,\\\"ly\\\":173,\\\"lt\\\":1397955872029,\\\"mx\\\":21,\\\"my\\\":178,\\\"mt\\\":1397955872005},{\\\"lx\\\":36,\\\"ly\\\":162,\\\"lt\\\":1397955872058,\\\"mx\\\":29,\\\"my\\\":173,\\\"mt\\\":1397955872029},{\\\"lx\\\":41,\\\"ly\\\":154,\\\"lt\\\":1397955872061,\\\"mx\\\":36,\\\"my\\\":162,\\\"mt\\\":1397955872058},{\\\"lx\\\":43,\\\"ly\\\":148,\\\"lt\\\":1397955872090,\\\"mx\\\":41,\\\"my\\\":154,\\\"mt\\\":1397955872061},{\\\"lx\\\":43,\\\"ly\\\":146,\\\"lt\\\":1397955872115,\\\"mx\\\":43,\\\"my\\\":148,\\\"mt\\\":1397955872090},{\\\"lx\\\":43,\\\"ly\\\":147,\\\"lt\\\":1397955872141,\\\"mx\\\":43,\\\"my\\\":146,\\\"mt\\\":1397955872115},{\\\"lx\\\":42,\\\"ly\\\":148,\\\"lt\\\":1397955872161,\\\"mx\\\":43,\\\"my\\\":147,\\\"mt\\\":1397955872141},{\\\"lx\\\":42,\\\"ly\\\":149,\\\"lt\\\":1397955872180,\\\"mx\\\":42,\\\"my\\\":148,\\\"mt\\\":1397955872161},{\\\"lx\\\":42,\\\"ly\\\":150,\\\"lt\\\":1397955872200,\\\"mx\\\":42,\\\"my\\\":149,\\\"mt\\\":1397955872180},{\\\"lx\\\":51,\\\"ly\\\":150,\\\"lt\\\":1397955872209,\\\"mx\\\":42,\\\"my\\\":150,\\\"mt\\\":1397955872200},{\\\"lx\\\":57,\\\"ly\\\":150,\\\"lt\\\":1397955872226,\\\"mx\\\":51,\\\"my\\\":150,\\\"mt\\\":1397955872209},{\\\"lx\\\":67,\\\"ly\\\":150,\\\"lt\\\":1397955872243,\\\"mx\\\":57,\\\"my\\\":150,\\\"mt\\\":1397955872226},{\\\"lx\\\":72,\\\"ly\\\":147,\\\"lt\\\":1397955872263,\\\"mx\\\":67,\\\"my\\\":150,\\\"mt\\\":1397955872243},{\\\"lx\\\":75,\\\"ly\\\":146,\\\"lt\\\":1397955872283,\\\"mx\\\":72,\\\"my\\\":147,\\\"mt\\\":1397955872263},{\\\"lx\\\":76,\\\"ly\\\":143,\\\"lt\\\":1397955872302,\\\"mx\\\":75,\\\"my\\\":146,\\\"mt\\\":1397955872283},{\\\"lx\\\":76,\\\"ly\\\":142,\\\"lt\\\":1397955872321,\\\"mx\\\":76,\\\"my\\\":143,\\\"mt\\\":1397955872302},{\\\"lx\\\":76,\\\"ly\\\":141,\\\"lt\\\":1397955872333,\\\"mx\\\":76,\\\"my\\\":142,\\\"mt\\\":1397955872321},{\\\"lx\\\":79,\\\"ly\\\":141,\\\"lt\\\":1397955872389,\\\"mx\\\":76,\\\"my\\\":141,\\\"mt\\\":1397955872333},{\\\"lx\\\":91,\\\"ly\\\":138,\\\"lt\\\":1397955872412,\\\"mx\\\":79,\\\"my\\\":141,\\\"mt\\\":1397955872389},{\\\"lx\\\":118,\\\"ly\\\":130,\\\"lt\\\":1397955872433,\\\"mx\\\":91,\\\"my\\\":138,\\\"mt\\\":1397955872412},{\\\"lx\\\":148,\\\"ly\\\":118,\\\"lt\\\":1397955872440,\\\"mx\\\":118,\\\"my\\\":130,\\\"mt\\\":1397955872433},{\\\"lx\\\":188,\\\"ly\\\":98,\\\"lt\\\":1397955872457,\\\"mx\\\":148,\\\"my\\\":118,\\\"mt\\\":1397955872440},{\\\"lx\\\":209,\\\"ly\\\":87,\\\"lt\\\":1397955872474,\\\"mx\\\":188,\\\"my\\\":98,\\\"mt\\\":1397955872457},{\\\"lx\\\":223,\\\"ly\\\":79,\\\"lt\\\":1397955872497,\\\"mx\\\":209,\\\"my\\\":87,\\\"mt\\\":1397955872474},{\\\"lx\\\":231,\\\"ly\\\":74,\\\"lt\\\":1397955872518,\\\"mx\\\":223,\\\"my\\\":79,\\\"mt\\\":1397955872497},{\\\"lx\\\":234,\\\"ly\\\":73,\\\"lt\\\":1397955872526,\\\"mx\\\":231,\\\"my\\\":74,\\\"mt\\\":1397955872518},{\\\"lx\\\":235,\\\"ly\\\":73,\\\"lt\\\":1397955872546,\\\"mx\\\":234,\\\"my\\\":73,\\\"mt\\\":1397955872526},{\\\"lx\\\":236,\\\"ly\\\":72,\\\"lt\\\":1397955872568,\\\"mx\\\":235,\\\"my\\\":73,\\\"mt\\\":1397955872546},{\\\"lx\\\":237,\\\"ly\\\":72,\\\"lt\\\":1397955872577,\\\"mx\\\":236,\\\"my\\\":72,\\\"mt\\\":1397955872568},{\\\"lx\\\":239,\\\"ly\\\":72,\\\"lt\\\":1397955872596,\\\"mx\\\":237,\\\"my\\\":72,\\\"mt\\\":1397955872577},{\\\"lx\\\":244,\\\"ly\\\":72,\\\"lt\\\":1397955872618,\\\"mx\\\":239,\\\"my\\\":72,\\\"mt\\\":1397955872596},{\\\"lx\\\":248,\\\"ly\\\":72,\\\"lt\\\":1397955872629,\\\"mx\\\":244,\\\"my\\\":72,\\\"mt\\\":1397955872618},{\\\"lx\\\":252,\\\"ly\\\":73,\\\"lt\\\":1397955872647,\\\"mx\\\":248,\\\"my\\\":72,\\\"mt\\\":1397955872629},{\\\"lx\\\":253,\\\"ly\\\":74,\\\"lt\\\":1397955872669,\\\"mx\\\":252,\\\"my\\\":73,\\\"mt\\\":1397955872647},{\\\"lx\\\":254,\\\"ly\\\":74,\\\"lt\\\":1397955872691,\\\"mx\\\":253,\\\"my\\\":74,\\\"mt\\\":1397955872669},{\\\"lx\\\":255,\\\"ly\\\":74,\\\"lt\\\":1397955872696,\\\"mx\\\":254,\\\"my\\\":74,\\\"mt\\\":1397955872691},{\\\"lx\\\":255,\\\"ly\\\":75,\\\"lt\\\":1397955872760,\\\"mx\\\":255,\\\"my\\\":74,\\\"mt\\\":1397955872696}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 2.7090ms
+Redirected to http://localhost:4000/signatures/53531d2261706f1057000000
+Completed 302 Found in 12ms
+
+
+Started GET "/signatures/53531d2261706f1057000000" for 127.0.0.1 at 2014-04-19 18:04:34 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"53531d2261706f1057000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('53531d2261706f1057000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5750ms
+  Rendered signatures/show.html.slim within layouts/application (3.3ms)
+Completed 200 OK in 15ms (Views: 11.4ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:13:01 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (192.2ms)
+Completed 200 OK in 409ms (Views: 354.9ms)
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:13:07 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":38,\"ly\":132,\"lt\":1397956385179,\"mx\":38,\"my\":131,\"mt\":1397956385179},{\"lx\":39,\"ly\":131,\"lt\":1397956385379,\"mx\":38,\"my\":132,\"mt\":1397956385179},{\"lx\":40,\"ly\":131,\"lt\":1397956385396,\"mx\":39,\"my\":131,\"mt\":1397956385379},{\"lx\":41,\"ly\":131,\"lt\":1397956385418,\"mx\":40,\"my\":131,\"mt\":1397956385396},{\"lx\":40,\"ly\":131,\"lt\":1397956385474,\"mx\":41,\"my\":131,\"mt\":1397956385418},{\"lx\":36,\"ly\":134,\"lt\":1397956385499,\"mx\":40,\"my\":131,\"mt\":1397956385474},{\"lx\":33,\"ly\":136,\"lt\":1397956385508,\"mx\":36,\"my\":134,\"mt\":1397956385499},{\"lx\":30,\"ly\":136,\"lt\":1397956385532,\"mx\":33,\"my\":136,\"mt\":1397956385508},{\"lx\":29,\"ly\":135,\"lt\":1397956385551,\"mx\":30,\"my\":136,\"mt\":1397956385532},{\"lx\":29,\"ly\":126,\"lt\":1397956385560,\"mx\":29,\"my\":135,\"mt\":1397956385551},{\"lx\":29,\"ly\":114,\"lt\":1397956385577,\"mx\":29,\"my\":126,\"mt\":1397956385560},{\"lx\":33,\"ly\":106,\"lt\":1397956385596,\"mx\":29,\"my\":114,\"mt\":1397956385577},{\"lx\":39,\"ly\":100,\"lt\":1397956385622,\"mx\":33,\"my\":106,\"mt\":1397956385596},{\"lx\":46,\"ly\":98,\"lt\":1397956385628,\"mx\":39,\"my\":100,\"mt\":1397956385622},{\"lx\":54,\"ly\":98,\"lt\":1397956385645,\"mx\":46,\"my\":98,\"mt\":1397956385628},{\"lx\":58,\"ly\":98,\"lt\":1397956385663,\"mx\":54,\"my\":98,\"mt\":1397956385645},{\"lx\":62,\"ly\":98,\"lt\":1397956385683,\"mx\":58,\"my\":98,\"mt\":1397956385663},{\"lx\":65,\"ly\":104,\"lt\":1397956385707,\"mx\":62,\"my\":98,\"mt\":1397956385683},{\"lx\":67,\"ly\":109,\"lt\":1397956385713,\"mx\":65,\"my\":104,\"mt\":1397956385707},{\"lx\":68,\"ly\":115,\"lt\":1397956385729,\"mx\":67,\"my\":109,\"mt\":1397956385713},{\"lx\":69,\"ly\":118,\"lt\":1397956385747,\"mx\":68,\"my\":115,\"mt\":1397956385729},{\"lx\":70,\"ly\":119,\"lt\":1397956385766,\"mx\":69,\"my\":118,\"mt\":1397956385747},{\"lx\":73,\"ly\":119,\"lt\":1397956385790,\"mx\":70,\"my\":119,\"mt\":1397956385766},{\"lx\":80,\"ly\":119,\"lt\":1397956385798,\"mx\":73,\"my\":119,\"mt\":1397956385790},{\"lx\":88,\"ly\":115,\"lt\":1397956385815,\"mx\":80,\"my\":119,\"mt\":1397956385798},{\"lx\":98,\"ly\":112,\"lt\":1397956385832,\"mx\":88,\"my\":115,\"mt\":1397956385815},{\"lx\":107,\"ly\":111,\"lt\":1397956385852,\"mx\":98,\"my\":112,\"mt\":1397956385832},{\"lx\":121,\"ly\":111,\"lt\":1397956385876,\"mx\":107,\"my\":111,\"mt\":1397956385852},{\"lx\":131,\"ly\":111,\"lt\":1397956385884,\"mx\":121,\"my\":111,\"mt\":1397956385876},{\"lx\":140,\"ly\":113,\"lt\":1397956385901,\"mx\":131,\"my\":111,\"mt\":1397956385884},{\"lx\":147,\"ly\":116,\"lt\":1397956385918,\"mx\":140,\"my\":113,\"mt\":1397956385901},{\"lx\":151,\"ly\":119,\"lt\":1397956385942,\"mx\":147,\"my\":116,\"mt\":1397956385918},{\"lx\":153,\"ly\":120,\"lt\":1397956385963,\"mx\":151,\"my\":119,\"mt\":1397956385942},{\"lx\":155,\"ly\":121,\"lt\":1397956385969,\"mx\":153,\"my\":120,\"mt\":1397956385963},{\"lx\":156,\"ly\":121,\"lt\":1397956385986,\"mx\":155,\"my\":121,\"mt\":1397956385969}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9290ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('53531f2361706f1159000000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":38,\\\"ly\\\":132,\\\"lt\\\":1397956385179,\\\"mx\\\":38,\\\"my\\\":131,\\\"mt\\\":1397956385179},{\\\"lx\\\":39,\\\"ly\\\":131,\\\"lt\\\":1397956385379,\\\"mx\\\":38,\\\"my\\\":132,\\\"mt\\\":1397956385179},{\\\"lx\\\":40,\\\"ly\\\":131,\\\"lt\\\":1397956385396,\\\"mx\\\":39,\\\"my\\\":131,\\\"mt\\\":1397956385379},{\\\"lx\\\":41,\\\"ly\\\":131,\\\"lt\\\":1397956385418,\\\"mx\\\":40,\\\"my\\\":131,\\\"mt\\\":1397956385396},{\\\"lx\\\":40,\\\"ly\\\":131,\\\"lt\\\":1397956385474,\\\"mx\\\":41,\\\"my\\\":131,\\\"mt\\\":1397956385418},{\\\"lx\\\":36,\\\"ly\\\":134,\\\"lt\\\":1397956385499,\\\"mx\\\":40,\\\"my\\\":131,\\\"mt\\\":1397956385474},{\\\"lx\\\":33,\\\"ly\\\":136,\\\"lt\\\":1397956385508,\\\"mx\\\":36,\\\"my\\\":134,\\\"mt\\\":1397956385499},{\\\"lx\\\":30,\\\"ly\\\":136,\\\"lt\\\":1397956385532,\\\"mx\\\":33,\\\"my\\\":136,\\\"mt\\\":1397956385508},{\\\"lx\\\":29,\\\"ly\\\":135,\\\"lt\\\":1397956385551,\\\"mx\\\":30,\\\"my\\\":136,\\\"mt\\\":1397956385532},{\\\"lx\\\":29,\\\"ly\\\":126,\\\"lt\\\":1397956385560,\\\"mx\\\":29,\\\"my\\\":135,\\\"mt\\\":1397956385551},{\\\"lx\\\":29,\\\"ly\\\":114,\\\"lt\\\":1397956385577,\\\"mx\\\":29,\\\"my\\\":126,\\\"mt\\\":1397956385560},{\\\"lx\\\":33,\\\"ly\\\":106,\\\"lt\\\":1397956385596,\\\"mx\\\":29,\\\"my\\\":114,\\\"mt\\\":1397956385577},{\\\"lx\\\":39,\\\"ly\\\":100,\\\"lt\\\":1397956385622,\\\"mx\\\":33,\\\"my\\\":106,\\\"mt\\\":1397956385596},{\\\"lx\\\":46,\\\"ly\\\":98,\\\"lt\\\":1397956385628,\\\"mx\\\":39,\\\"my\\\":100,\\\"mt\\\":1397956385622},{\\\"lx\\\":54,\\\"ly\\\":98,\\\"lt\\\":1397956385645,\\\"mx\\\":46,\\\"my\\\":98,\\\"mt\\\":1397956385628},{\\\"lx\\\":58,\\\"ly\\\":98,\\\"lt\\\":1397956385663,\\\"mx\\\":54,\\\"my\\\":98,\\\"mt\\\":1397956385645},{\\\"lx\\\":62,\\\"ly\\\":98,\\\"lt\\\":1397956385683,\\\"mx\\\":58,\\\"my\\\":98,\\\"mt\\\":1397956385663},{\\\"lx\\\":65,\\\"ly\\\":104,\\\"lt\\\":1397956385707,\\\"mx\\\":62,\\\"my\\\":98,\\\"mt\\\":1397956385683},{\\\"lx\\\":67,\\\"ly\\\":109,\\\"lt\\\":1397956385713,\\\"mx\\\":65,\\\"my\\\":104,\\\"mt\\\":1397956385707},{\\\"lx\\\":68,\\\"ly\\\":115,\\\"lt\\\":1397956385729,\\\"mx\\\":67,\\\"my\\\":109,\\\"mt\\\":1397956385713},{\\\"lx\\\":69,\\\"ly\\\":118,\\\"lt\\\":1397956385747,\\\"mx\\\":68,\\\"my\\\":115,\\\"mt\\\":1397956385729},{\\\"lx\\\":70,\\\"ly\\\":119,\\\"lt\\\":1397956385766,\\\"mx\\\":69,\\\"my\\\":118,\\\"mt\\\":1397956385747},{\\\"lx\\\":73,\\\"ly\\\":119,\\\"lt\\\":1397956385790,\\\"mx\\\":70,\\\"my\\\":119,\\\"mt\\\":1397956385766},{\\\"lx\\\":80,\\\"ly\\\":119,\\\"lt\\\":1397956385798,\\\"mx\\\":73,\\\"my\\\":119,\\\"mt\\\":1397956385790},{\\\"lx\\\":88,\\\"ly\\\":115,\\\"lt\\\":1397956385815,\\\"mx\\\":80,\\\"my\\\":119,\\\"mt\\\":1397956385798},{\\\"lx\\\":98,\\\"ly\\\":112,\\\"lt\\\":1397956385832,\\\"mx\\\":88,\\\"my\\\":115,\\\"mt\\\":1397956385815},{\\\"lx\\\":107,\\\"ly\\\":111,\\\"lt\\\":1397956385852,\\\"mx\\\":98,\\\"my\\\":112,\\\"mt\\\":1397956385832},{\\\"lx\\\":121,\\\"ly\\\":111,\\\"lt\\\":1397956385876,\\\"mx\\\":107,\\\"my\\\":111,\\\"mt\\\":1397956385852},{\\\"lx\\\":131,\\\"ly\\\":111,\\\"lt\\\":1397956385884,\\\"mx\\\":121,\\\"my\\\":111,\\\"mt\\\":1397956385876},{\\\"lx\\\":140,\\\"ly\\\":113,\\\"lt\\\":1397956385901,\\\"mx\\\":131,\\\"my\\\":111,\\\"mt\\\":1397956385884},{\\\"lx\\\":147,\\\"ly\\\":116,\\\"lt\\\":1397956385918,\\\"mx\\\":140,\\\"my\\\":113,\\\"mt\\\":1397956385901},{\\\"lx\\\":151,\\\"ly\\\":119,\\\"lt\\\":1397956385942,\\\"mx\\\":147,\\\"my\\\":116,\\\"mt\\\":1397956385918},{\\\"lx\\\":153,\\\"ly\\\":120,\\\"lt\\\":1397956385963,\\\"mx\\\":151,\\\"my\\\":119,\\\"mt\\\":1397956385942},{\\\"lx\\\":155,\\\"ly\\\":121,\\\"lt\\\":1397956385969,\\\"mx\\\":153,\\\"my\\\":120,\\\"mt\\\":1397956385963},{\\\"lx\\\":156,\\\"ly\\\":121,\\\"lt\\\":1397956385986,\\\"mx\\\":155,\\\"my\\\":121,\\\"mt\\\":1397956385969}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.5650ms
+Redirected to http://localhost:4000/signatures/53531f2361706f1159000000
+Completed 302 Found in 8ms
+
+
+Started GET "/signatures/53531f2361706f1159000000" for 127.0.0.1 at 2014-04-19 18:13:07 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"53531f2361706f1159000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('53531f2361706f1159000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5040ms
+  Rendered signatures/show.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 13ms (Views: 10.5ms)
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:13:48 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":23,\"ly\":126,\"lt\":1397956426245,\"mx\":23,\"my\":125,\"mt\":1397956426245},{\"lx\":23,\"ly\":127,\"lt\":1397956426468,\"mx\":23,\"my\":126,\"mt\":1397956426245},{\"lx\":23,\"ly\":128,\"lt\":1397956426490,\"mx\":23,\"my\":127,\"mt\":1397956426468},{\"lx\":23,\"ly\":127,\"lt\":1397956426556,\"mx\":23,\"my\":128,\"mt\":1397956426490},{\"lx\":23,\"ly\":124,\"lt\":1397956426574,\"mx\":23,\"my\":127,\"mt\":1397956426556},{\"lx\":23,\"ly\":118,\"lt\":1397956426590,\"mx\":23,\"my\":124,\"mt\":1397956426574},{\"lx\":29,\"ly\":110,\"lt\":1397956426607,\"mx\":23,\"my\":118,\"mt\":1397956426590},{\"lx\":39,\"ly\":103,\"lt\":1397956426637,\"mx\":29,\"my\":110,\"mt\":1397956426607},{\"lx\":54,\"ly\":97,\"lt\":1397956426640,\"mx\":39,\"my\":103,\"mt\":1397956426637},{\"lx\":75,\"ly\":93,\"lt\":1397956426670,\"mx\":54,\"my\":97,\"mt\":1397956426640},{\"lx\":88,\"ly\":93,\"lt\":1397956426674,\"mx\":75,\"my\":93,\"mt\":1397956426670},{\"lx\":98,\"ly\":93,\"lt\":1397956426703,\"mx\":88,\"my\":93,\"mt\":1397956426674},{\"lx\":101,\"ly\":93,\"lt\":1397956426710,\"mx\":98,\"my\":93,\"mt\":1397956426703},{\"lx\":102,\"ly\":93,\"lt\":1397956426736,\"mx\":101,\"my\":93,\"mt\":1397956426710},{\"lx\":103,\"ly\":93,\"lt\":1397956426877,\"mx\":102,\"my\":93,\"mt\":1397956426736},{\"lx\":105,\"ly\":93,\"lt\":1397956426897,\"mx\":103,\"my\":93,\"mt\":1397956426877},{\"lx\":108,\"ly\":95,\"lt\":1397956426925,\"mx\":105,\"my\":93,\"mt\":1397956426897},{\"lx\":109,\"ly\":97,\"lt\":1397956426927,\"mx\":108,\"my\":95,\"mt\":1397956426925},{\"lx\":112,\"ly\":101,\"lt\":1397956426952,\"mx\":109,\"my\":97,\"mt\":1397956426927},{\"lx\":113,\"ly\":106,\"lt\":1397956426976,\"mx\":112,\"my\":101,\"mt\":1397956426952},{\"lx\":114,\"ly\":111,\"lt\":1397956426978,\"mx\":113,\"my\":106,\"mt\":1397956426976},{\"lx\":115,\"ly\":112,\"lt\":1397956427001,\"mx\":114,\"my\":111,\"mt\":1397956426978},{\"lx\":116,\"ly\":115,\"lt\":1397956427024,\"mx\":115,\"my\":112,\"mt\":1397956427001},{\"lx\":118,\"ly\":116,\"lt\":1397956427029,\"mx\":116,\"my\":115,\"mt\":1397956427024},{\"lx\":123,\"ly\":116,\"lt\":1397956427048,\"mx\":118,\"my\":116,\"mt\":1397956427029},{\"lx\":129,\"ly\":116,\"lt\":1397956427071,\"mx\":123,\"my\":116,\"mt\":1397956427048},{\"lx\":136,\"ly\":114,\"lt\":1397956427080,\"mx\":129,\"my\":116,\"mt\":1397956427071},{\"lx\":143,\"ly\":112,\"lt\":1397956427097,\"mx\":136,\"my\":114,\"mt\":1397956427080},{\"lx\":148,\"ly\":110,\"lt\":1397956427117,\"mx\":143,\"my\":112,\"mt\":1397956427097},{\"lx\":153,\"ly\":110,\"lt\":1397956427138,\"mx\":148,\"my\":110,\"mt\":1397956427117},{\"lx\":154,\"ly\":110,\"lt\":1397956427148,\"mx\":153,\"my\":110,\"mt\":1397956427138},{\"lx\":154,\"ly\":111,\"lt\":1397956427213,\"mx\":154,\"my\":110,\"mt\":1397956427148},{\"lx\":149,\"ly\":116,\"lt\":1397956427231,\"mx\":154,\"my\":111,\"mt\":1397956427213},{\"lx\":143,\"ly\":120,\"lt\":1397956427254,\"mx\":149,\"my\":116,\"mt\":1397956427231},{\"lx\":138,\"ly\":122,\"lt\":1397956427276,\"mx\":143,\"my\":120,\"mt\":1397956427254},{\"lx\":134,\"ly\":123,\"lt\":1397956427280,\"mx\":138,\"my\":122,\"mt\":1397956427276},{\"lx\":134,\"ly\":122,\"lt\":1397956427323,\"mx\":134,\"my\":123,\"mt\":1397956427280},{\"lx\":138,\"ly\":114,\"lt\":1397956427327,\"mx\":134,\"my\":122,\"mt\":1397956427323},{\"lx\":152,\"ly\":102,\"lt\":1397956427348,\"mx\":138,\"my\":114,\"mt\":1397956427327},{\"lx\":162,\"ly\":97,\"lt\":1397956427372,\"mx\":152,\"my\":102,\"mt\":1397956427348},{\"lx\":170,\"ly\":92,\"lt\":1397956427378,\"mx\":162,\"my\":97,\"mt\":1397956427372},{\"lx\":176,\"ly\":91,\"lt\":1397956427396,\"mx\":170,\"my\":92,\"mt\":1397956427378},{\"lx\":177,\"ly\":91,\"lt\":1397956427419,\"mx\":176,\"my\":91,\"mt\":1397956427396},{\"lx\":178,\"ly\":91,\"lt\":1397956427443,\"mx\":177,\"my\":91,\"mt\":1397956427419},{\"lx\":179,\"ly\":91,\"lt\":1397956427446,\"mx\":178,\"my\":91,\"mt\":1397956427443},{\"lx\":180,\"ly\":91,\"lt\":1397956427662,\"mx\":179,\"my\":91,\"mt\":1397956427446}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5700ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('53531f4c61706f1159010000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":23,\\\"ly\\\":126,\\\"lt\\\":1397956426245,\\\"mx\\\":23,\\\"my\\\":125,\\\"mt\\\":1397956426245},{\\\"lx\\\":23,\\\"ly\\\":127,\\\"lt\\\":1397956426468,\\\"mx\\\":23,\\\"my\\\":126,\\\"mt\\\":1397956426245},{\\\"lx\\\":23,\\\"ly\\\":128,\\\"lt\\\":1397956426490,\\\"mx\\\":23,\\\"my\\\":127,\\\"mt\\\":1397956426468},{\\\"lx\\\":23,\\\"ly\\\":127,\\\"lt\\\":1397956426556,\\\"mx\\\":23,\\\"my\\\":128,\\\"mt\\\":1397956426490},{\\\"lx\\\":23,\\\"ly\\\":124,\\\"lt\\\":1397956426574,\\\"mx\\\":23,\\\"my\\\":127,\\\"mt\\\":1397956426556},{\\\"lx\\\":23,\\\"ly\\\":118,\\\"lt\\\":1397956426590,\\\"mx\\\":23,\\\"my\\\":124,\\\"mt\\\":1397956426574},{\\\"lx\\\":29,\\\"ly\\\":110,\\\"lt\\\":1397956426607,\\\"mx\\\":23,\\\"my\\\":118,\\\"mt\\\":1397956426590},{\\\"lx\\\":39,\\\"ly\\\":103,\\\"lt\\\":1397956426637,\\\"mx\\\":29,\\\"my\\\":110,\\\"mt\\\":1397956426607},{\\\"lx\\\":54,\\\"ly\\\":97,\\\"lt\\\":1397956426640,\\\"mx\\\":39,\\\"my\\\":103,\\\"mt\\\":1397956426637},{\\\"lx\\\":75,\\\"ly\\\":93,\\\"lt\\\":1397956426670,\\\"mx\\\":54,\\\"my\\\":97,\\\"mt\\\":1397956426640},{\\\"lx\\\":88,\\\"ly\\\":93,\\\"lt\\\":1397956426674,\\\"mx\\\":75,\\\"my\\\":93,\\\"mt\\\":1397956426670},{\\\"lx\\\":98,\\\"ly\\\":93,\\\"lt\\\":1397956426703,\\\"mx\\\":88,\\\"my\\\":93,\\\"mt\\\":1397956426674},{\\\"lx\\\":101,\\\"ly\\\":93,\\\"lt\\\":1397956426710,\\\"mx\\\":98,\\\"my\\\":93,\\\"mt\\\":1397956426703},{\\\"lx\\\":102,\\\"ly\\\":93,\\\"lt\\\":1397956426736,\\\"mx\\\":101,\\\"my\\\":93,\\\"mt\\\":1397956426710},{\\\"lx\\\":103,\\\"ly\\\":93,\\\"lt\\\":1397956426877,\\\"mx\\\":102,\\\"my\\\":93,\\\"mt\\\":1397956426736},{\\\"lx\\\":105,\\\"ly\\\":93,\\\"lt\\\":1397956426897,\\\"mx\\\":103,\\\"my\\\":93,\\\"mt\\\":1397956426877},{\\\"lx\\\":108,\\\"ly\\\":95,\\\"lt\\\":1397956426925,\\\"mx\\\":105,\\\"my\\\":93,\\\"mt\\\":1397956426897},{\\\"lx\\\":109,\\\"ly\\\":97,\\\"lt\\\":1397956426927,\\\"mx\\\":108,\\\"my\\\":95,\\\"mt\\\":1397956426925},{\\\"lx\\\":112,\\\"ly\\\":101,\\\"lt\\\":1397956426952,\\\"mx\\\":109,\\\"my\\\":97,\\\"mt\\\":1397956426927},{\\\"lx\\\":113,\\\"ly\\\":106,\\\"lt\\\":1397956426976,\\\"mx\\\":112,\\\"my\\\":101,\\\"mt\\\":1397956426952},{\\\"lx\\\":114,\\\"ly\\\":111,\\\"lt\\\":1397956426978,\\\"mx\\\":113,\\\"my\\\":106,\\\"mt\\\":1397956426976},{\\\"lx\\\":115,\\\"ly\\\":112,\\\"lt\\\":1397956427001,\\\"mx\\\":114,\\\"my\\\":111,\\\"mt\\\":1397956426978},{\\\"lx\\\":116,\\\"ly\\\":115,\\\"lt\\\":1397956427024,\\\"mx\\\":115,\\\"my\\\":112,\\\"mt\\\":1397956427001},{\\\"lx\\\":118,\\\"ly\\\":116,\\\"lt\\\":1397956427029,\\\"mx\\\":116,\\\"my\\\":115,\\\"mt\\\":1397956427024},{\\\"lx\\\":123,\\\"ly\\\":116,\\\"lt\\\":1397956427048,\\\"mx\\\":118,\\\"my\\\":116,\\\"mt\\\":1397956427029},{\\\"lx\\\":129,\\\"ly\\\":116,\\\"lt\\\":1397956427071,\\\"mx\\\":123,\\\"my\\\":116,\\\"mt\\\":1397956427048},{\\\"lx\\\":136,\\\"ly\\\":114,\\\"lt\\\":1397956427080,\\\"mx\\\":129,\\\"my\\\":116,\\\"mt\\\":1397956427071},{\\\"lx\\\":143,\\\"ly\\\":112,\\\"lt\\\":1397956427097,\\\"mx\\\":136,\\\"my\\\":114,\\\"mt\\\":1397956427080},{\\\"lx\\\":148,\\\"ly\\\":110,\\\"lt\\\":1397956427117,\\\"mx\\\":143,\\\"my\\\":112,\\\"mt\\\":1397956427097},{\\\"lx\\\":153,\\\"ly\\\":110,\\\"lt\\\":1397956427138,\\\"mx\\\":148,\\\"my\\\":110,\\\"mt\\\":1397956427117},{\\\"lx\\\":154,\\\"ly\\\":110,\\\"lt\\\":1397956427148,\\\"mx\\\":153,\\\"my\\\":110,\\\"mt\\\":1397956427138},{\\\"lx\\\":154,\\\"ly\\\":111,\\\"lt\\\":1397956427213,\\\"mx\\\":154,\\\"my\\\":110,\\\"mt\\\":1397956427148},{\\\"lx\\\":149,\\\"ly\\\":116,\\\"lt\\\":1397956427231,\\\"mx\\\":154,\\\"my\\\":111,\\\"mt\\\":1397956427213},{\\\"lx\\\":143,\\\"ly\\\":120,\\\"lt\\\":1397956427254,\\\"mx\\\":149,\\\"my\\\":116,\\\"mt\\\":1397956427231},{\\\"lx\\\":138,\\\"ly\\\":122,\\\"lt\\\":1397956427276,\\\"mx\\\":143,\\\"my\\\":120,\\\"mt\\\":1397956427254},{\\\"lx\\\":134,\\\"ly\\\":123,\\\"lt\\\":1397956427280,\\\"mx\\\":138,\\\"my\\\":122,\\\"mt\\\":1397956427276},{\\\"lx\\\":134,\\\"ly\\\":122,\\\"lt\\\":1397956427323,\\\"mx\\\":134,\\\"my\\\":123,\\\"mt\\\":1397956427280},{\\\"lx\\\":138,\\\"ly\\\":114,\\\"lt\\\":1397956427327,\\\"mx\\\":134,\\\"my\\\":122,\\\"mt\\\":1397956427323},{\\\"lx\\\":152,\\\"ly\\\":102,\\\"lt\\\":1397956427348,\\\"mx\\\":138,\\\"my\\\":114,\\\"mt\\\":1397956427327},{\\\"lx\\\":162,\\\"ly\\\":97,\\\"lt\\\":1397956427372,\\\"mx\\\":152,\\\"my\\\":102,\\\"mt\\\":1397956427348},{\\\"lx\\\":170,\\\"ly\\\":92,\\\"lt\\\":1397956427378,\\\"mx\\\":162,\\\"my\\\":97,\\\"mt\\\":1397956427372},{\\\"lx\\\":176,\\\"ly\\\":91,\\\"lt\\\":1397956427396,\\\"mx\\\":170,\\\"my\\\":92,\\\"mt\\\":1397956427378},{\\\"lx\\\":177,\\\"ly\\\":91,\\\"lt\\\":1397956427419,\\\"mx\\\":176,\\\"my\\\":91,\\\"mt\\\":1397956427396},{\\\"lx\\\":178,\\\"ly\\\":91,\\\"lt\\\":1397956427443,\\\"mx\\\":177,\\\"my\\\":91,\\\"mt\\\":1397956427419},{\\\"lx\\\":179,\\\"ly\\\":91,\\\"lt\\\":1397956427446,\\\"mx\\\":178,\\\"my\\\":91,\\\"mt\\\":1397956427443},{\\\"lx\\\":180,\\\"ly\\\":91,\\\"lt\\\":1397956427662,\\\"mx\\\":179,\\\"my\\\":91,\\\"mt\\\":1397956427446}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.9250ms
+Redirected to http://localhost:4000/signatures/53531f4c61706f1159010000
+Completed 302 Found in 9ms
+
+
+Started GET "/signatures/53531f4c61706f1159010000" for 127.0.0.1 at 2014-04-19 18:13:48 -0700
+Processing by SignaturesController#show as HTML
+  Parameters: {"id"=>"53531f4c61706f1159010000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=sigauth_development collection=signatures selector={"_id"=>BSON::ObjectId('53531f4c61706f1159010000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4850ms
+  Rendered signatures/show.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-19 18:19:01 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/me/.rbenv/versions/2.0.0-p0/lib/ruby/gems/2.0.0/gems/railties-4.0.3/lib/rails/templates/rails/welcome/index.html.erb (1.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:19:08 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim (4.6ms)
+Completed 200 OK in 47ms (Views: 9.4ms)
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:21:25 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (189.6ms)
+Completed 200 OK in 406ms (Views: 353.1ms)
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:21:32 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":32,\"ly\":134,\"lt\":1397956889265,\"mx\":32,\"my\":133,\"mt\":1397956889265},{\"lx\":32,\"ly\":131,\"lt\":1397956889489,\"mx\":32,\"my\":134,\"mt\":1397956889265},{\"lx\":32,\"ly\":130,\"lt\":1397956889506,\"mx\":32,\"my\":131,\"mt\":1397956889489},{\"lx\":32,\"ly\":134,\"lt\":1397956889595,\"mx\":32,\"my\":130,\"mt\":1397956889506},{\"lx\":32,\"ly\":139,\"lt\":1397956889611,\"mx\":32,\"my\":134,\"mt\":1397956889595},{\"lx\":32,\"ly\":142,\"lt\":1397956889628,\"mx\":32,\"my\":139,\"mt\":1397956889611},{\"lx\":32,\"ly\":143,\"lt\":1397956889645,\"mx\":32,\"my\":142,\"mt\":1397956889628},{\"lx\":32,\"ly\":144,\"lt\":1397956889662,\"mx\":32,\"my\":143,\"mt\":1397956889645},{\"lx\":32,\"ly\":142,\"lt\":1397956889715,\"mx\":32,\"my\":144,\"mt\":1397956889662},{\"lx\":32,\"ly\":139,\"lt\":1397956889731,\"mx\":32,\"my\":142,\"mt\":1397956889715},{\"lx\":36,\"ly\":136,\"lt\":1397956889748,\"mx\":32,\"my\":139,\"mt\":1397956889731},{\"lx\":42,\"ly\":135,\"lt\":1397956889765,\"mx\":36,\"my\":136,\"mt\":1397956889748},{\"lx\":48,\"ly\":135,\"lt\":1397956889782,\"mx\":42,\"my\":135,\"mt\":1397956889765},{\"lx\":54,\"ly\":135,\"lt\":1397956889809,\"mx\":48,\"my\":135,\"mt\":1397956889782},{\"lx\":59,\"ly\":135,\"lt\":1397956889817,\"mx\":54,\"my\":135,\"mt\":1397956889809},{\"lx\":63,\"ly\":138,\"lt\":1397956889833,\"mx\":59,\"my\":135,\"mt\":1397956889817},{\"lx\":66,\"ly\":140,\"lt\":1397956889851,\"mx\":63,\"my\":138,\"mt\":1397956889833},{\"lx\":66,\"ly\":141,\"lt\":1397956889873,\"mx\":66,\"my\":140,\"mt\":1397956889851},{\"lx\":65,\"ly\":141,\"lt\":1397956889894,\"mx\":66,\"my\":141,\"mt\":1397956889873},{\"lx\":60,\"ly\":141,\"lt\":1397956889919,\"mx\":65,\"my\":141,\"mt\":1397956889894},{\"lx\":56,\"ly\":141,\"lt\":1397956889924,\"mx\":60,\"my\":141,\"mt\":1397956889919},{\"lx\":53,\"ly\":137,\"lt\":1397956889941,\"mx\":56,\"my\":141,\"mt\":1397956889924},{\"lx\":53,\"ly\":131,\"lt\":1397956889959,\"mx\":53,\"my\":137,\"mt\":1397956889941},{\"lx\":56,\"ly\":123,\"lt\":1397956889984,\"mx\":53,\"my\":131,\"mt\":1397956889959},{\"lx\":66,\"ly\":117,\"lt\":1397956889992,\"mx\":56,\"my\":123,\"mt\":1397956889984},{\"lx\":74,\"ly\":111,\"lt\":1397956890009,\"mx\":66,\"my\":117,\"mt\":1397956889992},{\"lx\":80,\"ly\":107,\"lt\":1397956890033,\"mx\":74,\"my\":111,\"mt\":1397956890009},{\"lx\":82,\"ly\":107,\"lt\":1397956890053,\"mx\":80,\"my\":107,\"mt\":1397956890033},{\"lx\":83,\"ly\":107,\"lt\":1397956890062,\"mx\":82,\"my\":107,\"mt\":1397956890053},{\"lx\":84,\"ly\":107,\"lt\":1397956890079,\"mx\":83,\"my\":107,\"mt\":1397956890062},{\"lx\":85,\"ly\":106,\"lt\":1397956890203,\"mx\":84,\"my\":107,\"mt\":1397956890079},{\"lx\":86,\"ly\":106,\"lt\":1397956890227,\"mx\":85,\"my\":106,\"mt\":1397956890203},{\"lx\":87,\"ly\":106,\"lt\":1397956890251,\"mx\":86,\"my\":106,\"mt\":1397956890227},{\"lx\":88,\"ly\":106,\"lt\":1397956890271,\"mx\":87,\"my\":106,\"mt\":1397956890251}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0850ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5353211c61706f12af000000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":32,\\\"ly\\\":134,\\\"lt\\\":1397956889265,\\\"mx\\\":32,\\\"my\\\":133,\\\"mt\\\":1397956889265},{\\\"lx\\\":32,\\\"ly\\\":131,\\\"lt\\\":1397956889489,\\\"mx\\\":32,\\\"my\\\":134,\\\"mt\\\":1397956889265},{\\\"lx\\\":32,\\\"ly\\\":130,\\\"lt\\\":1397956889506,\\\"mx\\\":32,\\\"my\\\":131,\\\"mt\\\":1397956889489},{\\\"lx\\\":32,\\\"ly\\\":134,\\\"lt\\\":1397956889595,\\\"mx\\\":32,\\\"my\\\":130,\\\"mt\\\":1397956889506},{\\\"lx\\\":32,\\\"ly\\\":139,\\\"lt\\\":1397956889611,\\\"mx\\\":32,\\\"my\\\":134,\\\"mt\\\":1397956889595},{\\\"lx\\\":32,\\\"ly\\\":142,\\\"lt\\\":1397956889628,\\\"mx\\\":32,\\\"my\\\":139,\\\"mt\\\":1397956889611},{\\\"lx\\\":32,\\\"ly\\\":143,\\\"lt\\\":1397956889645,\\\"mx\\\":32,\\\"my\\\":142,\\\"mt\\\":1397956889628},{\\\"lx\\\":32,\\\"ly\\\":144,\\\"lt\\\":1397956889662,\\\"mx\\\":32,\\\"my\\\":143,\\\"mt\\\":1397956889645},{\\\"lx\\\":32,\\\"ly\\\":142,\\\"lt\\\":1397956889715,\\\"mx\\\":32,\\\"my\\\":144,\\\"mt\\\":1397956889662},{\\\"lx\\\":32,\\\"ly\\\":139,\\\"lt\\\":1397956889731,\\\"mx\\\":32,\\\"my\\\":142,\\\"mt\\\":1397956889715},{\\\"lx\\\":36,\\\"ly\\\":136,\\\"lt\\\":1397956889748,\\\"mx\\\":32,\\\"my\\\":139,\\\"mt\\\":1397956889731},{\\\"lx\\\":42,\\\"ly\\\":135,\\\"lt\\\":1397956889765,\\\"mx\\\":36,\\\"my\\\":136,\\\"mt\\\":1397956889748},{\\\"lx\\\":48,\\\"ly\\\":135,\\\"lt\\\":1397956889782,\\\"mx\\\":42,\\\"my\\\":135,\\\"mt\\\":1397956889765},{\\\"lx\\\":54,\\\"ly\\\":135,\\\"lt\\\":1397956889809,\\\"mx\\\":48,\\\"my\\\":135,\\\"mt\\\":1397956889782},{\\\"lx\\\":59,\\\"ly\\\":135,\\\"lt\\\":1397956889817,\\\"mx\\\":54,\\\"my\\\":135,\\\"mt\\\":1397956889809},{\\\"lx\\\":63,\\\"ly\\\":138,\\\"lt\\\":1397956889833,\\\"mx\\\":59,\\\"my\\\":135,\\\"mt\\\":1397956889817},{\\\"lx\\\":66,\\\"ly\\\":140,\\\"lt\\\":1397956889851,\\\"mx\\\":63,\\\"my\\\":138,\\\"mt\\\":1397956889833},{\\\"lx\\\":66,\\\"ly\\\":141,\\\"lt\\\":1397956889873,\\\"mx\\\":66,\\\"my\\\":140,\\\"mt\\\":1397956889851},{\\\"lx\\\":65,\\\"ly\\\":141,\\\"lt\\\":1397956889894,\\\"mx\\\":66,\\\"my\\\":141,\\\"mt\\\":1397956889873},{\\\"lx\\\":60,\\\"ly\\\":141,\\\"lt\\\":1397956889919,\\\"mx\\\":65,\\\"my\\\":141,\\\"mt\\\":1397956889894},{\\\"lx\\\":56,\\\"ly\\\":141,\\\"lt\\\":1397956889924,\\\"mx\\\":60,\\\"my\\\":141,\\\"mt\\\":1397956889919},{\\\"lx\\\":53,\\\"ly\\\":137,\\\"lt\\\":1397956889941,\\\"mx\\\":56,\\\"my\\\":141,\\\"mt\\\":1397956889924},{\\\"lx\\\":53,\\\"ly\\\":131,\\\"lt\\\":1397956889959,\\\"mx\\\":53,\\\"my\\\":137,\\\"mt\\\":1397956889941},{\\\"lx\\\":56,\\\"ly\\\":123,\\\"lt\\\":1397956889984,\\\"mx\\\":53,\\\"my\\\":131,\\\"mt\\\":1397956889959},{\\\"lx\\\":66,\\\"ly\\\":117,\\\"lt\\\":1397956889992,\\\"mx\\\":56,\\\"my\\\":123,\\\"mt\\\":1397956889984},{\\\"lx\\\":74,\\\"ly\\\":111,\\\"lt\\\":1397956890009,\\\"mx\\\":66,\\\"my\\\":117,\\\"mt\\\":1397956889992},{\\\"lx\\\":80,\\\"ly\\\":107,\\\"lt\\\":1397956890033,\\\"mx\\\":74,\\\"my\\\":111,\\\"mt\\\":1397956890009},{\\\"lx\\\":82,\\\"ly\\\":107,\\\"lt\\\":1397956890053,\\\"mx\\\":80,\\\"my\\\":107,\\\"mt\\\":1397956890033},{\\\"lx\\\":83,\\\"ly\\\":107,\\\"lt\\\":1397956890062,\\\"mx\\\":82,\\\"my\\\":107,\\\"mt\\\":1397956890053},{\\\"lx\\\":84,\\\"ly\\\":107,\\\"lt\\\":1397956890079,\\\"mx\\\":83,\\\"my\\\":107,\\\"mt\\\":1397956890062},{\\\"lx\\\":85,\\\"ly\\\":106,\\\"lt\\\":1397956890203,\\\"mx\\\":84,\\\"my\\\":107,\\\"mt\\\":1397956890079},{\\\"lx\\\":86,\\\"ly\\\":106,\\\"lt\\\":1397956890227,\\\"mx\\\":85,\\\"my\\\":106,\\\"mt\\\":1397956890203},{\\\"lx\\\":87,\\\"ly\\\":106,\\\"lt\\\":1397956890251,\\\"mx\\\":86,\\\"my\\\":106,\\\"mt\\\":1397956890227},{\\\"lx\\\":88,\\\"ly\\\":106,\\\"lt\\\":1397956890271,\\\"mx\\\":87,\\\"my\\\":106,\\\"mt\\\":1397956890251}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.8530ms
+Redirected to http://localhost:4000/signatures/new
+Completed 302 Found in 84ms
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:21:32 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 12ms (Views: 10.7ms)
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:21:38 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":29,\"ly\":155,\"lt\":1397956895819,\"mx\":29,\"my\":154,\"mt\":1397956895819},{\"lx\":29,\"ly\":152,\"lt\":1397956896035,\"mx\":29,\"my\":155,\"mt\":1397956895819},{\"lx\":29,\"ly\":146,\"lt\":1397956896058,\"mx\":29,\"my\":152,\"mt\":1397956896035},{\"lx\":29,\"ly\":143,\"lt\":1397956896068,\"mx\":29,\"my\":146,\"mt\":1397956896058},{\"lx\":29,\"ly\":137,\"lt\":1397956896095,\"mx\":29,\"my\":143,\"mt\":1397956896068},{\"lx\":29,\"ly\":133,\"lt\":1397956896102,\"mx\":29,\"my\":137,\"mt\":1397956896095},{\"lx\":41,\"ly\":130,\"lt\":1397956896131,\"mx\":29,\"my\":133,\"mt\":1397956896102},{\"lx\":52,\"ly\":129,\"lt\":1397956896137,\"mx\":41,\"my\":130,\"mt\":1397956896131},{\"lx\":68,\"ly\":129,\"lt\":1397956896166,\"mx\":52,\"my\":129,\"mt\":1397956896137},{\"lx\":83,\"ly\":129,\"lt\":1397956896170,\"mx\":68,\"my\":129,\"mt\":1397956896166},{\"lx\":91,\"ly\":132,\"lt\":1397956896201,\"mx\":83,\"my\":129,\"mt\":1397956896170},{\"lx\":97,\"ly\":136,\"lt\":1397956896224,\"mx\":91,\"my\":132,\"mt\":1397956896201},{\"lx\":101,\"ly\":142,\"lt\":1397956896235,\"mx\":97,\"my\":136,\"mt\":1397956896224},{\"lx\":101,\"ly\":147,\"lt\":1397956896258,\"mx\":101,\"my\":142,\"mt\":1397956896235},{\"lx\":101,\"ly\":153,\"lt\":1397956896287,\"mx\":101,\"my\":147,\"mt\":1397956896258},{\"lx\":95,\"ly\":159,\"lt\":1397956896305,\"mx\":101,\"my\":153,\"mt\":1397956896287},{\"lx\":94,\"ly\":160,\"lt\":1397956896323,\"mx\":95,\"my\":159,\"mt\":1397956896305},{\"lx\":94,\"ly\":158,\"lt\":1397956896341,\"mx\":94,\"my\":160,\"mt\":1397956896323},{\"lx\":99,\"ly\":149,\"lt\":1397956896365,\"mx\":94,\"my\":158,\"mt\":1397956896341},{\"lx\":109,\"ly\":141,\"lt\":1397956896377,\"mx\":99,\"my\":149,\"mt\":1397956896365},{\"lx\":118,\"ly\":136,\"lt\":1397956896394,\"mx\":109,\"my\":141,\"mt\":1397956896377},{\"lx\":130,\"ly\":132,\"lt\":1397956896412,\"mx\":118,\"my\":136,\"mt\":1397956896394},{\"lx\":140,\"ly\":132,\"lt\":1397956896430,\"mx\":130,\"my\":132,\"mt\":1397956896412},{\"lx\":147,\"ly\":132,\"lt\":1397956896439,\"mx\":140,\"my\":132,\"mt\":1397956896430},{\"lx\":151,\"ly\":132,\"lt\":1397956896457,\"mx\":147,\"my\":132,\"mt\":1397956896439},{\"lx\":154,\"ly\":132,\"lt\":1397956896483,\"mx\":151,\"my\":132,\"mt\":1397956896457},{\"lx\":155,\"ly\":132,\"lt\":1397956896491,\"mx\":154,\"my\":132,\"mt\":1397956896483},{\"lx\":157,\"ly\":132,\"lt\":1397956896510,\"mx\":155,\"my\":132,\"mt\":1397956896491},{\"lx\":158,\"ly\":132,\"lt\":1397956896590,\"mx\":157,\"my\":132,\"mt\":1397956896510},{\"lx\":159,\"ly\":131,\"lt\":1397956896617,\"mx\":158,\"my\":132,\"mt\":1397956896590},{\"lx\":160,\"ly\":131,\"lt\":1397956896653,\"mx\":159,\"my\":131,\"mt\":1397956896617}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5510ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5353212261706f12af010000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":29,\\\"ly\\\":155,\\\"lt\\\":1397956895819,\\\"mx\\\":29,\\\"my\\\":154,\\\"mt\\\":1397956895819},{\\\"lx\\\":29,\\\"ly\\\":152,\\\"lt\\\":1397956896035,\\\"mx\\\":29,\\\"my\\\":155,\\\"mt\\\":1397956895819},{\\\"lx\\\":29,\\\"ly\\\":146,\\\"lt\\\":1397956896058,\\\"mx\\\":29,\\\"my\\\":152,\\\"mt\\\":1397956896035},{\\\"lx\\\":29,\\\"ly\\\":143,\\\"lt\\\":1397956896068,\\\"mx\\\":29,\\\"my\\\":146,\\\"mt\\\":1397956896058},{\\\"lx\\\":29,\\\"ly\\\":137,\\\"lt\\\":1397956896095,\\\"mx\\\":29,\\\"my\\\":143,\\\"mt\\\":1397956896068},{\\\"lx\\\":29,\\\"ly\\\":133,\\\"lt\\\":1397956896102,\\\"mx\\\":29,\\\"my\\\":137,\\\"mt\\\":1397956896095},{\\\"lx\\\":41,\\\"ly\\\":130,\\\"lt\\\":1397956896131,\\\"mx\\\":29,\\\"my\\\":133,\\\"mt\\\":1397956896102},{\\\"lx\\\":52,\\\"ly\\\":129,\\\"lt\\\":1397956896137,\\\"mx\\\":41,\\\"my\\\":130,\\\"mt\\\":1397956896131},{\\\"lx\\\":68,\\\"ly\\\":129,\\\"lt\\\":1397956896166,\\\"mx\\\":52,\\\"my\\\":129,\\\"mt\\\":1397956896137},{\\\"lx\\\":83,\\\"ly\\\":129,\\\"lt\\\":1397956896170,\\\"mx\\\":68,\\\"my\\\":129,\\\"mt\\\":1397956896166},{\\\"lx\\\":91,\\\"ly\\\":132,\\\"lt\\\":1397956896201,\\\"mx\\\":83,\\\"my\\\":129,\\\"mt\\\":1397956896170},{\\\"lx\\\":97,\\\"ly\\\":136,\\\"lt\\\":1397956896224,\\\"mx\\\":91,\\\"my\\\":132,\\\"mt\\\":1397956896201},{\\\"lx\\\":101,\\\"ly\\\":142,\\\"lt\\\":1397956896235,\\\"mx\\\":97,\\\"my\\\":136,\\\"mt\\\":1397956896224},{\\\"lx\\\":101,\\\"ly\\\":147,\\\"lt\\\":1397956896258,\\\"mx\\\":101,\\\"my\\\":142,\\\"mt\\\":1397956896235},{\\\"lx\\\":101,\\\"ly\\\":153,\\\"lt\\\":1397956896287,\\\"mx\\\":101,\\\"my\\\":147,\\\"mt\\\":1397956896258},{\\\"lx\\\":95,\\\"ly\\\":159,\\\"lt\\\":1397956896305,\\\"mx\\\":101,\\\"my\\\":153,\\\"mt\\\":1397956896287},{\\\"lx\\\":94,\\\"ly\\\":160,\\\"lt\\\":1397956896323,\\\"mx\\\":95,\\\"my\\\":159,\\\"mt\\\":1397956896305},{\\\"lx\\\":94,\\\"ly\\\":158,\\\"lt\\\":1397956896341,\\\"mx\\\":94,\\\"my\\\":160,\\\"mt\\\":1397956896323},{\\\"lx\\\":99,\\\"ly\\\":149,\\\"lt\\\":1397956896365,\\\"mx\\\":94,\\\"my\\\":158,\\\"mt\\\":1397956896341},{\\\"lx\\\":109,\\\"ly\\\":141,\\\"lt\\\":1397956896377,\\\"mx\\\":99,\\\"my\\\":149,\\\"mt\\\":1397956896365},{\\\"lx\\\":118,\\\"ly\\\":136,\\\"lt\\\":1397956896394,\\\"mx\\\":109,\\\"my\\\":141,\\\"mt\\\":1397956896377},{\\\"lx\\\":130,\\\"ly\\\":132,\\\"lt\\\":1397956896412,\\\"mx\\\":118,\\\"my\\\":136,\\\"mt\\\":1397956896394},{\\\"lx\\\":140,\\\"ly\\\":132,\\\"lt\\\":1397956896430,\\\"mx\\\":130,\\\"my\\\":132,\\\"mt\\\":1397956896412},{\\\"lx\\\":147,\\\"ly\\\":132,\\\"lt\\\":1397956896439,\\\"mx\\\":140,\\\"my\\\":132,\\\"mt\\\":1397956896430},{\\\"lx\\\":151,\\\"ly\\\":132,\\\"lt\\\":1397956896457,\\\"mx\\\":147,\\\"my\\\":132,\\\"mt\\\":1397956896439},{\\\"lx\\\":154,\\\"ly\\\":132,\\\"lt\\\":1397956896483,\\\"mx\\\":151,\\\"my\\\":132,\\\"mt\\\":1397956896457},{\\\"lx\\\":155,\\\"ly\\\":132,\\\"lt\\\":1397956896491,\\\"mx\\\":154,\\\"my\\\":132,\\\"mt\\\":1397956896483},{\\\"lx\\\":157,\\\"ly\\\":132,\\\"lt\\\":1397956896510,\\\"mx\\\":155,\\\"my\\\":132,\\\"mt\\\":1397956896491},{\\\"lx\\\":158,\\\"ly\\\":132,\\\"lt\\\":1397956896590,\\\"mx\\\":157,\\\"my\\\":132,\\\"mt\\\":1397956896510},{\\\"lx\\\":159,\\\"ly\\\":131,\\\"lt\\\":1397956896617,\\\"mx\\\":158,\\\"my\\\":132,\\\"mt\\\":1397956896590},{\\\"lx\\\":160,\\\"ly\\\":131,\\\"lt\\\":1397956896653,\\\"mx\\\":159,\\\"my\\\":131,\\\"mt\\\":1397956896617}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.6360ms
+Redirected to http://localhost:4000/signatures/new
+Completed 302 Found in 5ms
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:21:38 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 11ms (Views: 10.2ms)
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:21:47 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":23,\"ly\":89,\"lt\":1397956905292,\"mx\":23,\"my\":88,\"mt\":1397956905292},{\"lx\":25,\"ly\":88,\"lt\":1397956905492,\"mx\":23,\"my\":89,\"mt\":1397956905292},{\"lx\":28,\"ly\":88,\"lt\":1397956905511,\"mx\":25,\"my\":88,\"mt\":1397956905492},{\"lx\":37,\"ly\":88,\"lt\":1397956905525,\"mx\":28,\"my\":88,\"mt\":1397956905511},{\"lx\":41,\"ly\":88,\"lt\":1397956905544,\"mx\":37,\"my\":88,\"mt\":1397956905525},{\"lx\":45,\"ly\":88,\"lt\":1397956905559,\"mx\":41,\"my\":88,\"mt\":1397956905544},{\"lx\":49,\"ly\":91,\"lt\":1397956905577,\"mx\":45,\"my\":88,\"mt\":1397956905559},{\"lx\":51,\"ly\":99,\"lt\":1397956905593,\"mx\":49,\"my\":91,\"mt\":1397956905577},{\"lx\":52,\"ly\":115,\"lt\":1397956905610,\"mx\":51,\"my\":99,\"mt\":1397956905593},{\"lx\":51,\"ly\":128,\"lt\":1397956905627,\"mx\":52,\"my\":115,\"mt\":1397956905610},{\"lx\":44,\"ly\":138,\"lt\":1397956905643,\"mx\":51,\"my\":128,\"mt\":1397956905627},{\"lx\":37,\"ly\":144,\"lt\":1397956905667,\"mx\":44,\"my\":138,\"mt\":1397956905643},{\"lx\":34,\"ly\":146,\"lt\":1397956905677,\"mx\":37,\"my\":144,\"mt\":1397956905667},{\"lx\":32,\"ly\":146,\"lt\":1397956905708,\"mx\":34,\"my\":146,\"mt\":1397956905677},{\"lx\":32,\"ly\":145,\"lt\":1397956905735,\"mx\":32,\"my\":146,\"mt\":1397956905708},{\"lx\":38,\"ly\":135,\"lt\":1397956905741,\"mx\":32,\"my\":145,\"mt\":1397956905735},{\"lx\":55,\"ly\":119,\"lt\":1397956905756,\"mx\":38,\"my\":135,\"mt\":1397956905741},{\"lx\":68,\"ly\":110,\"lt\":1397956905774,\"mx\":55,\"my\":119,\"mt\":1397956905756},{\"lx\":84,\"ly\":102,\"lt\":1397956905789,\"mx\":68,\"my\":110,\"mt\":1397956905774},{\"lx\":95,\"ly\":101,\"lt\":1397956905798,\"mx\":84,\"my\":102,\"mt\":1397956905789},{\"lx\":103,\"ly\":101,\"lt\":1397956905814,\"mx\":95,\"my\":101,\"mt\":1397956905798},{\"lx\":107,\"ly\":102,\"lt\":1397956905839,\"mx\":103,\"my\":101,\"mt\":1397956905814},{\"lx\":110,\"ly\":104,\"lt\":1397956905848,\"mx\":107,\"my\":102,\"mt\":1397956905839},{\"lx\":111,\"ly\":106,\"lt\":1397956905864,\"mx\":110,\"my\":104,\"mt\":1397956905848},{\"lx\":112,\"ly\":107,\"lt\":1397956905890,\"mx\":111,\"my\":106,\"mt\":1397956905864},{\"lx\":112,\"ly\":108,\"lt\":1397956905906,\"mx\":112,\"my\":107,\"mt\":1397956905890},{\"lx\":113,\"ly\":108,\"lt\":1397956905922,\"mx\":112,\"my\":108,\"mt\":1397956905906},{\"lx\":114,\"ly\":108,\"lt\":1397956905942,\"mx\":113,\"my\":108,\"mt\":1397956905922},{\"lx\":117,\"ly\":108,\"lt\":1397956905950,\"mx\":114,\"my\":108,\"mt\":1397956905942},{\"lx\":123,\"ly\":108,\"lt\":1397956905976,\"mx\":117,\"my\":108,\"mt\":1397956905950},{\"lx\":128,\"ly\":108,\"lt\":1397956905984,\"mx\":123,\"my\":108,\"mt\":1397956905976},{\"lx\":132,\"ly\":108,\"lt\":1397956906002,\"mx\":128,\"my\":108,\"mt\":1397956905984},{\"lx\":137,\"ly\":108,\"lt\":1397956906026,\"mx\":132,\"my\":108,\"mt\":1397956906002},{\"lx\":140,\"ly\":108,\"lt\":1397956906035,\"mx\":137,\"my\":108,\"mt\":1397956906026},{\"lx\":144,\"ly\":108,\"lt\":1397956906051,\"mx\":140,\"my\":108,\"mt\":1397956906035}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4920ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5353212b61706f12af020000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":23,\\\"ly\\\":89,\\\"lt\\\":1397956905292,\\\"mx\\\":23,\\\"my\\\":88,\\\"mt\\\":1397956905292},{\\\"lx\\\":25,\\\"ly\\\":88,\\\"lt\\\":1397956905492,\\\"mx\\\":23,\\\"my\\\":89,\\\"mt\\\":1397956905292},{\\\"lx\\\":28,\\\"ly\\\":88,\\\"lt\\\":1397956905511,\\\"mx\\\":25,\\\"my\\\":88,\\\"mt\\\":1397956905492},{\\\"lx\\\":37,\\\"ly\\\":88,\\\"lt\\\":1397956905525,\\\"mx\\\":28,\\\"my\\\":88,\\\"mt\\\":1397956905511},{\\\"lx\\\":41,\\\"ly\\\":88,\\\"lt\\\":1397956905544,\\\"mx\\\":37,\\\"my\\\":88,\\\"mt\\\":1397956905525},{\\\"lx\\\":45,\\\"ly\\\":88,\\\"lt\\\":1397956905559,\\\"mx\\\":41,\\\"my\\\":88,\\\"mt\\\":1397956905544},{\\\"lx\\\":49,\\\"ly\\\":91,\\\"lt\\\":1397956905577,\\\"mx\\\":45,\\\"my\\\":88,\\\"mt\\\":1397956905559},{\\\"lx\\\":51,\\\"ly\\\":99,\\\"lt\\\":1397956905593,\\\"mx\\\":49,\\\"my\\\":91,\\\"mt\\\":1397956905577},{\\\"lx\\\":52,\\\"ly\\\":115,\\\"lt\\\":1397956905610,\\\"mx\\\":51,\\\"my\\\":99,\\\"mt\\\":1397956905593},{\\\"lx\\\":51,\\\"ly\\\":128,\\\"lt\\\":1397956905627,\\\"mx\\\":52,\\\"my\\\":115,\\\"mt\\\":1397956905610},{\\\"lx\\\":44,\\\"ly\\\":138,\\\"lt\\\":1397956905643,\\\"mx\\\":51,\\\"my\\\":128,\\\"mt\\\":1397956905627},{\\\"lx\\\":37,\\\"ly\\\":144,\\\"lt\\\":1397956905667,\\\"mx\\\":44,\\\"my\\\":138,\\\"mt\\\":1397956905643},{\\\"lx\\\":34,\\\"ly\\\":146,\\\"lt\\\":1397956905677,\\\"mx\\\":37,\\\"my\\\":144,\\\"mt\\\":1397956905667},{\\\"lx\\\":32,\\\"ly\\\":146,\\\"lt\\\":1397956905708,\\\"mx\\\":34,\\\"my\\\":146,\\\"mt\\\":1397956905677},{\\\"lx\\\":32,\\\"ly\\\":145,\\\"lt\\\":1397956905735,\\\"mx\\\":32,\\\"my\\\":146,\\\"mt\\\":1397956905708},{\\\"lx\\\":38,\\\"ly\\\":135,\\\"lt\\\":1397956905741,\\\"mx\\\":32,\\\"my\\\":145,\\\"mt\\\":1397956905735},{\\\"lx\\\":55,\\\"ly\\\":119,\\\"lt\\\":1397956905756,\\\"mx\\\":38,\\\"my\\\":135,\\\"mt\\\":1397956905741},{\\\"lx\\\":68,\\\"ly\\\":110,\\\"lt\\\":1397956905774,\\\"mx\\\":55,\\\"my\\\":119,\\\"mt\\\":1397956905756},{\\\"lx\\\":84,\\\"ly\\\":102,\\\"lt\\\":1397956905789,\\\"mx\\\":68,\\\"my\\\":110,\\\"mt\\\":1397956905774},{\\\"lx\\\":95,\\\"ly\\\":101,\\\"lt\\\":1397956905798,\\\"mx\\\":84,\\\"my\\\":102,\\\"mt\\\":1397956905789},{\\\"lx\\\":103,\\\"ly\\\":101,\\\"lt\\\":1397956905814,\\\"mx\\\":95,\\\"my\\\":101,\\\"mt\\\":1397956905798},{\\\"lx\\\":107,\\\"ly\\\":102,\\\"lt\\\":1397956905839,\\\"mx\\\":103,\\\"my\\\":101,\\\"mt\\\":1397956905814},{\\\"lx\\\":110,\\\"ly\\\":104,\\\"lt\\\":1397956905848,\\\"mx\\\":107,\\\"my\\\":102,\\\"mt\\\":1397956905839},{\\\"lx\\\":111,\\\"ly\\\":106,\\\"lt\\\":1397956905864,\\\"mx\\\":110,\\\"my\\\":104,\\\"mt\\\":1397956905848},{\\\"lx\\\":112,\\\"ly\\\":107,\\\"lt\\\":1397956905890,\\\"mx\\\":111,\\\"my\\\":106,\\\"mt\\\":1397956905864},{\\\"lx\\\":112,\\\"ly\\\":108,\\\"lt\\\":1397956905906,\\\"mx\\\":112,\\\"my\\\":107,\\\"mt\\\":1397956905890},{\\\"lx\\\":113,\\\"ly\\\":108,\\\"lt\\\":1397956905922,\\\"mx\\\":112,\\\"my\\\":108,\\\"mt\\\":1397956905906},{\\\"lx\\\":114,\\\"ly\\\":108,\\\"lt\\\":1397956905942,\\\"mx\\\":113,\\\"my\\\":108,\\\"mt\\\":1397956905922},{\\\"lx\\\":117,\\\"ly\\\":108,\\\"lt\\\":1397956905950,\\\"mx\\\":114,\\\"my\\\":108,\\\"mt\\\":1397956905942},{\\\"lx\\\":123,\\\"ly\\\":108,\\\"lt\\\":1397956905976,\\\"mx\\\":117,\\\"my\\\":108,\\\"mt\\\":1397956905950},{\\\"lx\\\":128,\\\"ly\\\":108,\\\"lt\\\":1397956905984,\\\"mx\\\":123,\\\"my\\\":108,\\\"mt\\\":1397956905976},{\\\"lx\\\":132,\\\"ly\\\":108,\\\"lt\\\":1397956906002,\\\"mx\\\":128,\\\"my\\\":108,\\\"mt\\\":1397956905984},{\\\"lx\\\":137,\\\"ly\\\":108,\\\"lt\\\":1397956906026,\\\"mx\\\":132,\\\"my\\\":108,\\\"mt\\\":1397956906002},{\\\"lx\\\":140,\\\"ly\\\":108,\\\"lt\\\":1397956906035,\\\"mx\\\":137,\\\"my\\\":108,\\\"mt\\\":1397956906026},{\\\"lx\\\":144,\\\"ly\\\":108,\\\"lt\\\":1397956906051,\\\"mx\\\":140,\\\"my\\\":108,\\\"mt\\\":1397956906035}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.9200ms
+Redirected to http://localhost:4000/signatures/new
+Completed 302 Found in 5ms
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:21:47 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms)
+
+
+Started POST "/signatures" for 127.0.0.1 at 2014-04-19 18:22:01 -0700
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hkWctGGd4BfgqR2U4G/V3JwDlsREaJ4E5N65c2kSPGc=", "signature"=>{"name"=>"", "signature"=>"[{\"lx\":46,\"ly\":175,\"lt\":1397956919044,\"mx\":46,\"my\":174,\"mt\":1397956919044},{\"lx\":46,\"ly\":172,\"lt\":1397956919197,\"mx\":46,\"my\":175,\"mt\":1397956919044},{\"lx\":46,\"ly\":167,\"lt\":1397956919246,\"mx\":46,\"my\":172,\"mt\":1397956919197},{\"lx\":46,\"ly\":168,\"lt\":1397956919317,\"mx\":46,\"my\":167,\"mt\":1397956919246},{\"lx\":46,\"ly\":170,\"lt\":1397956919336,\"mx\":46,\"my\":168,\"mt\":1397956919317},{\"lx\":46,\"ly\":173,\"lt\":1397956919350,\"mx\":46,\"my\":170,\"mt\":1397956919336},{\"lx\":46,\"ly\":175,\"lt\":1397956919368,\"mx\":46,\"my\":173,\"mt\":1397956919350},{\"lx\":57,\"ly\":175,\"lt\":1397956919408,\"mx\":46,\"my\":175,\"mt\":1397956919368},{\"lx\":73,\"ly\":167,\"lt\":1397956919418,\"mx\":57,\"my\":175,\"mt\":1397956919408},{\"lx\":87,\"ly\":160,\"lt\":1397956919435,\"mx\":73,\"my\":167,\"mt\":1397956919418},{\"lx\":101,\"ly\":155,\"lt\":1397956919456,\"mx\":87,\"my\":160,\"mt\":1397956919435},{\"lx\":111,\"ly\":154,\"lt\":1397956919478,\"mx\":101,\"my\":155,\"mt\":1397956919456},{\"lx\":117,\"ly\":154,\"lt\":1397956919486,\"mx\":111,\"my\":154,\"mt\":1397956919478},{\"lx\":125,\"ly\":154,\"lt\":1397956919503,\"mx\":117,\"my\":154,\"mt\":1397956919486},{\"lx\":136,\"ly\":154,\"lt\":1397956919523,\"mx\":125,\"my\":154,\"mt\":1397956919503},{\"lx\":143,\"ly\":154,\"lt\":1397956919546,\"mx\":136,\"my\":154,\"mt\":1397956919523},{\"lx\":151,\"ly\":154,\"lt\":1397956919554,\"mx\":143,\"my\":154,\"mt\":1397956919546},{\"lx\":155,\"ly\":154,\"lt\":1397956919571,\"mx\":151,\"my\":154,\"mt\":1397956919554},{\"lx\":157,\"ly\":154,\"lt\":1397956919590,\"mx\":155,\"my\":154,\"mt\":1397956919571},{\"lx\":158,\"ly\":154,\"lt\":1397956919613,\"mx\":157,\"my\":154,\"mt\":1397956919590},{\"lx\":159,\"ly\":153,\"lt\":1397956919682,\"mx\":158,\"my\":154,\"mt\":1397956919613},{\"lx\":160,\"ly\":152,\"lt\":1397956919710,\"mx\":159,\"my\":153,\"mt\":1397956919682},{\"lx\":161,\"ly\":151,\"lt\":1397956919738,\"mx\":160,\"my\":152,\"mt\":1397956919710},{\"lx\":166,\"ly\":147,\"lt\":1397956919742,\"mx\":161,\"my\":151,\"mt\":1397956919738},{\"lx\":173,\"ly\":143,\"lt\":1397956919761,\"mx\":166,\"my\":147,\"mt\":1397956919742},{\"lx\":181,\"ly\":136,\"lt\":1397956919784,\"mx\":173,\"my\":143,\"mt\":1397956919761},{\"lx\":189,\"ly\":133,\"lt\":1397956919807,\"mx\":181,\"my\":136,\"mt\":1397956919784},{\"lx\":195,\"ly\":129,\"lt\":1397956919810,\"mx\":189,\"my\":133,\"mt\":1397956919807},{\"lx\":198,\"ly\":128,\"lt\":1397956919829,\"mx\":195,\"my\":129,\"mt\":1397956919810},{\"lx\":200,\"ly\":127,\"lt\":1397956919851,\"mx\":198,\"my\":128,\"mt\":1397956919829},{\"lx\":202,\"ly\":127,\"lt\":1397956919875,\"mx\":200,\"my\":127,\"mt\":1397956919851},{\"lx\":202,\"ly\":128,\"lt\":1397956919953,\"mx\":202,\"my\":127,\"mt\":1397956919875},{\"lx\":202,\"ly\":129,\"lt\":1397956919976,\"mx\":202,\"my\":128,\"mt\":1397956919953},{\"lx\":202,\"ly\":130,\"lt\":1397956919982,\"mx\":202,\"my\":129,\"mt\":1397956919976},{\"lx\":203,\"ly\":131,\"lt\":1397956920005,\"mx\":202,\"my\":130,\"mt\":1397956919982}]"}, "commit"=>"Create Signature"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4460ms
+  MOPED: 127.0.0.1:27017 INSERT       database=sigauth_development collection=signatures documents=[{"_id"=>BSON::ObjectId('5353213961706f12af030000'), "name"=>nil, "signature"=>"{\"name\"=>\"\", \"signature\"=>\"[{\\\"lx\\\":46,\\\"ly\\\":175,\\\"lt\\\":1397956919044,\\\"mx\\\":46,\\\"my\\\":174,\\\"mt\\\":1397956919044},{\\\"lx\\\":46,\\\"ly\\\":172,\\\"lt\\\":1397956919197,\\\"mx\\\":46,\\\"my\\\":175,\\\"mt\\\":1397956919044},{\\\"lx\\\":46,\\\"ly\\\":167,\\\"lt\\\":1397956919246,\\\"mx\\\":46,\\\"my\\\":172,\\\"mt\\\":1397956919197},{\\\"lx\\\":46,\\\"ly\\\":168,\\\"lt\\\":1397956919317,\\\"mx\\\":46,\\\"my\\\":167,\\\"mt\\\":1397956919246},{\\\"lx\\\":46,\\\"ly\\\":170,\\\"lt\\\":1397956919336,\\\"mx\\\":46,\\\"my\\\":168,\\\"mt\\\":1397956919317},{\\\"lx\\\":46,\\\"ly\\\":173,\\\"lt\\\":1397956919350,\\\"mx\\\":46,\\\"my\\\":170,\\\"mt\\\":1397956919336},{\\\"lx\\\":46,\\\"ly\\\":175,\\\"lt\\\":1397956919368,\\\"mx\\\":46,\\\"my\\\":173,\\\"mt\\\":1397956919350},{\\\"lx\\\":57,\\\"ly\\\":175,\\\"lt\\\":1397956919408,\\\"mx\\\":46,\\\"my\\\":175,\\\"mt\\\":1397956919368},{\\\"lx\\\":73,\\\"ly\\\":167,\\\"lt\\\":1397956919418,\\\"mx\\\":57,\\\"my\\\":175,\\\"mt\\\":1397956919408},{\\\"lx\\\":87,\\\"ly\\\":160,\\\"lt\\\":1397956919435,\\\"mx\\\":73,\\\"my\\\":167,\\\"mt\\\":1397956919418},{\\\"lx\\\":101,\\\"ly\\\":155,\\\"lt\\\":1397956919456,\\\"mx\\\":87,\\\"my\\\":160,\\\"mt\\\":1397956919435},{\\\"lx\\\":111,\\\"ly\\\":154,\\\"lt\\\":1397956919478,\\\"mx\\\":101,\\\"my\\\":155,\\\"mt\\\":1397956919456},{\\\"lx\\\":117,\\\"ly\\\":154,\\\"lt\\\":1397956919486,\\\"mx\\\":111,\\\"my\\\":154,\\\"mt\\\":1397956919478},{\\\"lx\\\":125,\\\"ly\\\":154,\\\"lt\\\":1397956919503,\\\"mx\\\":117,\\\"my\\\":154,\\\"mt\\\":1397956919486},{\\\"lx\\\":136,\\\"ly\\\":154,\\\"lt\\\":1397956919523,\\\"mx\\\":125,\\\"my\\\":154,\\\"mt\\\":1397956919503},{\\\"lx\\\":143,\\\"ly\\\":154,\\\"lt\\\":1397956919546,\\\"mx\\\":136,\\\"my\\\":154,\\\"mt\\\":1397956919523},{\\\"lx\\\":151,\\\"ly\\\":154,\\\"lt\\\":1397956919554,\\\"mx\\\":143,\\\"my\\\":154,\\\"mt\\\":1397956919546},{\\\"lx\\\":155,\\\"ly\\\":154,\\\"lt\\\":1397956919571,\\\"mx\\\":151,\\\"my\\\":154,\\\"mt\\\":1397956919554},{\\\"lx\\\":157,\\\"ly\\\":154,\\\"lt\\\":1397956919590,\\\"mx\\\":155,\\\"my\\\":154,\\\"mt\\\":1397956919571},{\\\"lx\\\":158,\\\"ly\\\":154,\\\"lt\\\":1397956919613,\\\"mx\\\":157,\\\"my\\\":154,\\\"mt\\\":1397956919590},{\\\"lx\\\":159,\\\"ly\\\":153,\\\"lt\\\":1397956919682,\\\"mx\\\":158,\\\"my\\\":154,\\\"mt\\\":1397956919613},{\\\"lx\\\":160,\\\"ly\\\":152,\\\"lt\\\":1397956919710,\\\"mx\\\":159,\\\"my\\\":153,\\\"mt\\\":1397956919682},{\\\"lx\\\":161,\\\"ly\\\":151,\\\"lt\\\":1397956919738,\\\"mx\\\":160,\\\"my\\\":152,\\\"mt\\\":1397956919710},{\\\"lx\\\":166,\\\"ly\\\":147,\\\"lt\\\":1397956919742,\\\"mx\\\":161,\\\"my\\\":151,\\\"mt\\\":1397956919738},{\\\"lx\\\":173,\\\"ly\\\":143,\\\"lt\\\":1397956919761,\\\"mx\\\":166,\\\"my\\\":147,\\\"mt\\\":1397956919742},{\\\"lx\\\":181,\\\"ly\\\":136,\\\"lt\\\":1397956919784,\\\"mx\\\":173,\\\"my\\\":143,\\\"mt\\\":1397956919761},{\\\"lx\\\":189,\\\"ly\\\":133,\\\"lt\\\":1397956919807,\\\"mx\\\":181,\\\"my\\\":136,\\\"mt\\\":1397956919784},{\\\"lx\\\":195,\\\"ly\\\":129,\\\"lt\\\":1397956919810,\\\"mx\\\":189,\\\"my\\\":133,\\\"mt\\\":1397956919807},{\\\"lx\\\":198,\\\"ly\\\":128,\\\"lt\\\":1397956919829,\\\"mx\\\":195,\\\"my\\\":129,\\\"mt\\\":1397956919810},{\\\"lx\\\":200,\\\"ly\\\":127,\\\"lt\\\":1397956919851,\\\"mx\\\":198,\\\"my\\\":128,\\\"mt\\\":1397956919829},{\\\"lx\\\":202,\\\"ly\\\":127,\\\"lt\\\":1397956919875,\\\"mx\\\":200,\\\"my\\\":127,\\\"mt\\\":1397956919851},{\\\"lx\\\":202,\\\"ly\\\":128,\\\"lt\\\":1397956919953,\\\"mx\\\":202,\\\"my\\\":127,\\\"mt\\\":1397956919875},{\\\"lx\\\":202,\\\"ly\\\":129,\\\"lt\\\":1397956919976,\\\"mx\\\":202,\\\"my\\\":128,\\\"mt\\\":1397956919953},{\\\"lx\\\":202,\\\"ly\\\":130,\\\"lt\\\":1397956919982,\\\"mx\\\":202,\\\"my\\\":129,\\\"mt\\\":1397956919976},{\\\"lx\\\":203,\\\"ly\\\":131,\\\"lt\\\":1397956920005,\\\"mx\\\":202,\\\"my\\\":130,\\\"mt\\\":1397956919982}]\"}"}] flags=[]
+                         COMMAND      database=sigauth_development command={:getlasterror=>1, :w=>1} runtime: 0.5260ms
+Redirected to http://localhost:4000/signatures/new
+Completed 302 Found in 7ms
+
+
+Started GET "/signatures/new" for 127.0.0.1 at 2014-04-19 18:22:01 -0700
+Processing by SignaturesController#new as HTML
+  Rendered signatures/new.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 11ms (Views: 10.3ms)

@@ -1,0 +1,16 @@
+.sigPad
+  = simple_form_for(@signature) do |f|
+    dl
+      dt
+        = f.label :name
+      dd
+        = f.text_field :name
+      br
+      dt
+        = f.label :signature
+      dd
+        .sig.sigWrapper style=("width: 398px; height: 200px;")
+          canvas.pad width=398 height=200
+          = f.hidden_field :signature, :value => nil, :class => 'output'
+      br
+      = f.button :submit

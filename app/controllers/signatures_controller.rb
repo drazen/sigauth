@@ -6,13 +6,13 @@ class SignaturesController < ApplicationController
 
   def create
     @signature = Signature.new( params[:id] )
-    @signature.name = params[:name]
-    @signature.signature = params[:signature]
+    @signature.name = params[:signature][:name]
+    @signature.signature = params[:signature][:signature]
     #write signature to local file for jeff's testins
-    File.open('/tmp/signatures.json', 'w') {|f| f.write(params[:signature]) }
+    File.open('/tmp/signatures.json', 'w+') {|f| f.write(@signature.signature) }
     respond_to do |format|
       if @signature.save
-        flash[:notice] = 'Signature was successfully created.'
+        flash[:notice] = "Signature for #{@signature.name} received and recorded."
         format.html { redirect_to :back }
         # format.html { redirect_to(@signature) }
       else
